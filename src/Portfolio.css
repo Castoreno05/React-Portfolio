@@ -1,0 +1,12 @@
+/* HTML styling ***************************************************************************************/
+body {
+   background-image: url(./Images/myBG.jpg); 
+}
+/* App styling ***************************************************************************************/
+.App {
+    display: flex;
+    overflow: hidden;
+}
+.Portfolio {
+    position:absolute;
+}

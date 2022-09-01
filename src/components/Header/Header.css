@@ -1,0 +1,20 @@
+.container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem auto;
+    color: whitesmoke;
+}
+.about{
+    margin: 1.75rem;
+}
+.imageDiv {
+    background-image: url(../../Images/Louvre.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 55px;
+    box-shadow: 15px 15px 2px 0px rgba(0,0,0,0.75);
+    padding: 142px 100px;
+    width: 213px;
+    height: 303px;
+}
