@@ -5,6 +5,7 @@ body {
 /* App styling ***************************************************************************************/
 .App {
     display: flex;
+    flex-direction: column;
     overflow: hidden;
 }
 .Portfolio {

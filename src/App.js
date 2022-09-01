@@ -1,5 +1,5 @@
 import Header from "./components/Header/Header";
-import Nav from "./components/Navbar/Nav";
+import About from "./components/About/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 // import Images from "./Images/myBG.jpg"
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Nav setContent={setContent}></Nav> */}
+      <About />
       {content === "portfolio" && <Portfolio />}
       {content === "contact" && <Contact />}
     </div>

@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 4rem auto;
     color: whitesmoke;
+    position: relative;
+    bottom: 8rem;
 }
 .about{
     margin: 1.75rem;
