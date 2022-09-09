@@ -1,63 +1,56 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { faAddressCard, faHouse, faDiagramProject, faFile } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import "./header.css";
 
 export default function Header() {
   return (
     <div className="header">
-      <Navbar bg="dark" variant="dark" sticky="top" expand="xxl">
+      <Navbar bg="dark" variant="dark" fixed="top" expand="xxl">
         <Navbar.Brand>
           <a href="https://github.com/Castoreno05/Project_3">
-          <FontAwesomeIcon icon={faHouse}></FontAwesomeIcon>
           </a>
-          Matthew Castoreno
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav>
             <Nav.Link
               href="/"
-              // onClick={() => handlePageChange("Home")}
-              // className={
-              //   currentPage === "Home" ? "nav-link active" : "nav-link"
-              // }
             >
-              {/* <FontAwesomeIcon icon={faHouse}></FontAwesomeIcon> Home */}
+              <FontAwesomeIcon icon={faHouse}></FontAwesomeIcon>
             </Nav.Link>
             <Nav.Link
-              href="/dashboard"
-              // onClick={() => handlePageChange("Dashboard")}
-              // className={
-              //   currentPage === "Dashboard" ? "nav-link active" : "nav-link"
-              // }
+              href="/projects"
             >
-              {/* <FontAwesomeIcon icon={faClipboard}></FontAwesomeIcon> Dashboard */}
+              <FontAwesomeIcon icon={faDiagramProject}></FontAwesomeIcon>
             </Nav.Link>
             <Nav.Link
-              href="/resources"
-              // onClick={() => handlePageChange("Resources")}
-              // className={
-              //   currentPage === "Resources" ? "nav-link active" : "nav-link"
-              // }
+              href="/about"
             >
-              {/* <FontAwesomeIcon icon={faFileCode}></FontAwesomeIcon> Resources */}
+              <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>
+            </Nav.Link>
+            <Nav.Link
+              href="/about"
+            >
+              <FontAwesomeIcon icon={faFile}></FontAwesomeIcon>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <section className="aboutMe"></section>
+      <section className="intro">
+        <h1 className="name">Matthew Castoreno</h1>
+        <div className="paragraphDiv">
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+        </div>
+        <div className="socialLinks">
+        <FontAwesomeIcon id="githubLink" icon={faEnvelope}></FontAwesomeIcon>
+        <FontAwesomeIcon id="resumeLink" icon={faEnvelope}></FontAwesomeIcon>
+        <FontAwesomeIcon id="linkedinLink" icon={faEnvelope}></FontAwesomeIcon>
+        </div>
+      </section>
     </div>
   );
 }
 
-/* <div>
-          <Nav />
-        </div>
-        <div>
-          <h6 className="about">Welcome, I'm</h6>
-          <h1 className="about">Matthew Castoreno</h1>
-          <div className="about imageDiv"></div>
-          <h6 className="about">Full Stack Web Developer</h6>
-        </div> */

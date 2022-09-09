@@ -2,18 +2,54 @@
   height: 100vh;
   background: url(../../Images/newBG.jpg) no-repeat top center;
   background-size: cover;
+  border-bottom: opacity .5;
 }
-.aboutMe {
+.intro {
   display: inline-block;
   position: relative;
-  top: 25%;
-  left: 10%;
-  width: 80%;
-  border: solid 3px whitesmoke;
+  overflow: scroll;
+  top: 8%;
+  left: 7.5%;
+  width: 85%;
   height: 450px;
+  font-family: 'Antonio', sans-serif;
 }
 img {
   margin-right: 25px;
+}
+.name {
+  opacity: .8;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 75px;
+  position: relative;
+  top: 5%;
+}
+.paragraphDiv {
+  position: relative;
+  top: 15%;
+  padding: 15px 20px;
+}
+.intro p {
+  opacity: .8;
+  text-align: center;
+  font-size: 22px;
+  flex-wrap: wrap;
+  color: whitesmoke;
+}
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 10px;
+  top: 15%;
+  color: whitesmoke;
+}
+#githubLink, #resumeLink, #linkedinLink {
+  opacity: .8;
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px;
 }
 
 /* .imageDiv {

@@ -1,4 +1,13 @@
-.container-about {
+.aboutMe {
+    background-color: #636363;
+    display: flex;
+    flex-direction: row;
+}
+#myPic {
+    position: relative;
+    left: 45%;
+    padding: 10px 10px;
     height: 250px;
-    width: 250px;
+    width: 180px;
+    border-radius: 40px;
 }
