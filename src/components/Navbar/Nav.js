@@ -25,13 +25,13 @@ export default function Nav({ setContent }) {
           <a onClick={() => setContent("about-me")}>About Me</a>
         </li>
         <li>
-          <a onClick={() => setContent("portfolio")}>Portfolio</a>
-        </li>
-        <li>
-          <a onClick={() => setContent("contact")}>Contact</a>
+          <a onClick={() => setContent("projects")}>Projects</a>
         </li>
         <li>
           <a onClick={() => setContent("resume")}>Resume</a>
+        </li>
+        <li>
+          <a onClick={() => setContent("contact")}>Contact Me</a>
         </li>
       </ul>
     </nav>

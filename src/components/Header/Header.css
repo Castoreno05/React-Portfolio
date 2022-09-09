@@ -1,21 +1,27 @@
-.container-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: whitesmoke;
-    position: relative;
-    bottom: 8rem;
+.header {
+  height: 100vh;
+  background: url(../../Images/newBG.jpg) no-repeat top center;
+  background-size: cover;
 }
-.about{
-    margin: 1.75rem;
+.aboutMe {
+  display: inline-block;
+  position: relative;
+  top: 25%;
+  left: 10%;
+  width: 80%;
+  border: solid 3px whitesmoke;
+  height: 450px;
 }
-.imageDiv {
+img {
+  margin-right: 25px;
+}
+
+/* .imageDiv {
     background-image: url(../../Images/Louvre.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 55px;
-    box-shadow: 15px 15px 2px 0px rgba(0,0,0,0.75);
     padding: 142px 100px;
-    width: 213px;
-    height: 303px;
-}
+    width: 150px;
+    height: 100px;
+} */
