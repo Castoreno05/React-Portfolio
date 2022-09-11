@@ -1,13 +1,57 @@
-.aboutMe {
-    background-color: #636363;
+#about {
+    height: 500px;
+    background-color: #2B2B2B;
     display: flex;
-    flex-direction: row;
+}
+.aboutSection {
+    position: relative;
+    left: 7.5%;
+    top: 5%;
+    height: 90%;
+    overflow: scroll;
+    display: flex;
+    width: 85%;
 }
 #myPic {
-    position: relative;
-    left: 45%;
     padding: 10px 10px;
     height: 250px;
     width: 180px;
-    border-radius: 40px;
+    border-radius: 110px;
+    position: relative;
+    top: 18%;
+}
+.aboutDiv {
+    height: 70%;
+    width: 100%;
+    color: whitesmoke;
+}
+.aboutDiv p {
+    padding: 10px 10px;
+    position: relative;
+    top: 25%;
+    font-size: 20px;
+}
+.aboutDiv h2 {
+    font-size: 32px;
+    position: relative;
+    top: 25%;
+    left: 10px;
+    width: 138px;
+}
+@media screen and (max-width: 399px){
+    .aboutSection {
+        flex-direction: column;
+    }
+    #myPic {
+       display: none;
+    }
+    .aboutDiv h2 {
+        position: relative;
+        left: 0px;
+        width: auto;
+        text-align: center;
+    }
+    .aboutDiv p {
+        text-align: center;
+    }
 }

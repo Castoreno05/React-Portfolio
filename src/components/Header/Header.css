@@ -8,7 +8,7 @@
   display: inline-block;
   position: relative;
   overflow: scroll;
-  top: 8%;
+  top: 30%;
   left: 7.5%;
   width: 85%;
   height: 450px;
@@ -50,6 +50,9 @@ img {
   width: 40px;
   height: 40px;
   padding: 10px 10px;
+}
+.navbar {
+  opacity: .2;
 }
 
 /* .imageDiv {
