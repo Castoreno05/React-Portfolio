@@ -1,71 +1,77 @@
-#skills {
-    font-family: 'Antonio', sans-serif;
-    display: flex;
-    flex-direction: column;
-    height: 1200px;
-    width: 100%;
+.education, .work {
+  display: flex;
+  width: 70vw;
+  margin: 3em auto;
+  padding: 2em;
 }
-.education {
-    display: flex;
-    margin: auto;
-    height: 400px;
-    width: 85%;
-    border-bottom: solid 2px #d3d3d3;
+.skillTitle {
+  margin-top: 8px;
+  padding: 7px;
+  height: 43px;
+  border-bottom: solid 3px #a1c6ea;
 }
-.titleDiv {
-    position: relative;
-    top: 25%;
-    border-bottom: solid 3px #A1C6EA;
-    height: 50px;
+.education-columns h2 {
+  padding: 15px;
+  margin: 0;
 }
-.bodyDiv {
-    display: inline-block;
-    width: 85%;
+.skillColumn {
+  line-height: 40px;
+  padding: 15px;
 }
-.schoolOne {
-    margin: auto;
-    height: 200px;
-    width: 90%;
+.education-columns {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
-.schoolTwo {
-    margin: auto;
-    height: 200px;
-    width: 90%;
-}
-.schoolContent {
-    position: relative;
-    top: 5%;
+.education-columns > * {
+  flex-basis: 100%;
 }
 .work {
-    display: flex;
-    margin: auto;
-    height: 400px;
-    width: 85%;
-    border-bottom: solid 2px #d3d3d3;
+  display: flex;
+  width: 70vw;
+  margin: 3em auto;
+  padding: 2em;
 }
-.workOne {
-    margin: auto;
-    height: 200px;
-    width: 90%;
+.work-columns {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
-.workTwo {
-    margin: auto;
-    height: 200px;
-    width: 90%;
+.work-columns h2 {
+  padding: 15px;
+  margin: 0;
 }
-.skills {
-    display: flex;
-    margin: auto;
-    height: 400px;
-    width: 85%;
+.strengths {
+  display: flex;
+  width: 70vw;
+  margin: 3em auto;
+  padding: 2em;
 }
-.skillOne {
-    margin: auto;
-    height: 200px;
-    width: 90%;
+.strength-columns {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
-.skillTwo {
-    margin: auto;
-    height: 200px;
-    width: 90%;
+.strength-columns h2 {
+  padding: 15px;
+  margin: 0;
+}
+
+
+
+
+@media screen and (max-width: 399px) {
+  .education, .work, .strengths {
+    display: block;
+    margin: 15px auto;
+  }
+  .work-columns, .education-columns, .strength-columns {
+    width: 100%;
+  }
+  .skillTitle {
+    text-align: center;
+  }
 }

@@ -2,16 +2,13 @@
     height: 500px;
     font-family: 'Antonio', sans-serif;
     background-color: #2B2B2B;
-    display: flex;
 }
 .aboutSection {
-    position: relative;
-    left: 7.5%;
+    overflow-x: hidden;
     top: 5%;
     height: 90%;
-    overflow: scroll;
     display: flex;
-    width: 85%;
+    justify-content: center;
 }
 #myPic {
     padding: 10px 10px;
@@ -22,8 +19,7 @@
     top: 18%;
 }
 .aboutDiv {
-    height: 70%;
-    width: 100%;
+    width: 60%;
     color: whitesmoke;
 }
 .aboutDiv p {
@@ -31,6 +27,7 @@
     position: relative;
     top: 25%;
     font-size: 20px;
+    line-height: 50px;
 }
 .aboutDiv h2 {
     font-size: 32px;
@@ -45,6 +42,9 @@
     }
     #myPic {
        display: none;
+    }
+    .aboutDiv {
+        width: auto;
     }
     .aboutDiv h2 {
         position: relative;

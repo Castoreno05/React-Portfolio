@@ -1,62 +1,68 @@
-import React from 'react'
+import React from "react";
 import "./skills.css";
 
 export default function Skills() {
   return (
-    <section id='skills'>
-      <div className='education'>
-        <div className='titleDiv'>
-          <h2>
-            <span>Education</span>
-          </h2>
-        </div>
-        <div className='bodyDiv'>
-          <div className='schoolOne'>
-            <div className='schoolContent'>
-              <h1>Univeristy of Texas - Full-Stack Coding Bootcamp</h1>
-              <p>Full-Stack Web Development <span>•</span> September 2022</p>
-              <p>Eam id erant nonumy, mei ex delectus petentium scribentur, qui id probo animal adipisci. Ut vocibus indoctum sit, est brute nominati consectetuer no. Ei omittam disputationi concludaturque per, cum ex labores appareat. Eam maiestatis dissentiunt ut. At mel altera aperiri mandamus. Eam offendit scripserit te.</p>
-            </div>
+    <div className="skills">
+      <div className="education">
+        <h3 className="skillTitle">Education</h3>
+        <div className="education-columns">
+          <h2>University of Texas - Austin, Texas</h2>
+          <div className="skillColumn">
+            Ei omittam disputationi concludaturque per, cum ex labores appareat.
+            Eam maiestatis dissentiunt ut. At mel altera aperiri mandamus. Eam
+            offendit scripserit te.Ei omittam disputationi concludaturque per,
+            cum ex labores appareat. Eam maiestatis dissentiunt ut. At mel
+            altera aperiri mandamus. Eam offendit scripserit te.
           </div>
-          <div className='schoolTwo'>
-            <div className='schoolContent'>
-              <h1>San Jacinto College</h1>
-              <p>Process Technology <span>•</span> July 2016</p>
-              <p>Eam id erant nonumy, mei ex delectus petentium scribentur, qui id probo animal adipisci. Ut vocibus indoctum sit, est brute nominati consectetuer no. Ei omittam disputationi concludaturque per, cum ex labores appareat. Eam maiestatis dissentiunt ut. At mel altera aperiri mandamus. Eam offendit scripserit te.</p>
-            </div>
+          <h2>San Jacinto College - Pasadena, Texas</h2>
+          <div className="skillColumn">
+            Ei omittam disputationi concludaturque per, cum ex labores appareat.
+            Eam maiestatis dissentiunt ut. At mel altera aperiri mandamus. Eam
+            offendit scripserit te.Ei omittam disputationi concludaturque per,
+            cum ex labores appareat. Eam maiestatis dissentiunt ut. At mel
+            altera aperiri mandamus. Eam offendit scripserit te.
           </div>
         </div>
       </div>
-      <div className='work'>
-        <div className='titleDiv'>
-          <h2>
-            <span>Work</span>
-          </h2>
-        </div>
-        <div className='bodyDiv'>
-          <div className='workOne'>
-
+      <div className="work">
+        <h3 className="skillTitle">Work</h3>
+        <div className="work-columns">
+          <h2>Eurecat US Inc</h2>
+          <div className="skillColumn">
+            Ei omittam disputationi concludaturque per, cum ex labores appareat.
+            Eam maiestatis dissentiunt ut. At mel altera aperiri mandamus. Eam
+            offendit scripserit te.Ei omittam disputationi concludaturque per,
+            cum ex labores appareat. Eam maiestatis dissentiunt ut. At mel
+            altera aperiri mandamus. Eam offendit scripserit te.
           </div>
-          <div className='workTwo'>
-
-          </div>
-        </div>
-      </div>
-      <div className='skills'>
-        <div className='titleDiv'>
-          <h2>
-            <span>Skills</span>
-          </h2>
-        </div>
-        <div className='bodyDiv'>
-          <div className='skillOne'>
-
-          </div>
-          <div className='skillTwo'>
-
+          <h2>The Lubrizol Corporation</h2>
+          <div className="skillColumn">
+            Ei omittam disputationi concludaturque per, cum ex labores appareat.
+            Eam maiestatis dissentiunt ut. At mel altera aperiri mandamus. Eam
+            offendit scripserit te.Ei omittam disputationi concludaturque per,
+            cum ex labores appareat. Eam maiestatis dissentiunt ut. At mel
+            altera aperiri mandamus. Eam offendit scripserit te.
           </div>
         </div>
       </div>
-    </section>
-  )
+      <div className="strengths">
+        <h3 className="skillTitle">Skills</h3>
+        <div className="strength-columns">
+          <div className="skillColumn">
+            Ei omittam disputationi concludaturque per, cum ex labores appareat.
+            Eam maiestatis dissentiunt ut. At mel altera aperiri mandamus. Eam
+            offendit scripserit te.Ei omittam disputationi concludaturque per,
+            cum ex labores appareat. Eam maiestatis dissentiunt ut. At mel
+            altera aperiri mandamus. Eam offendit scripserit Ei omittam
+            disputationi concludaturque per, cum ex labores appareat. Eam
+            maiestatis dissentiunt ut. At mel altera aperiri mandamus. Eam
+            offendit scripserit te.Ei omittam disputationi concludaturque per,
+            cum ex labores appareat. Eam maiestatis dissentiunt ut. At mel
+            altera aperiri mandamus. Eam offendit scripserit te.
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
