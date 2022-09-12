@@ -32,7 +32,7 @@ export default function Header() {
               <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>
             </Nav.Link>
             <Nav.Link
-              href="/resume"
+              href="/#skills"
             >
               <FontAwesomeIcon icon={faFile}></FontAwesomeIcon>
             </Nav.Link>

@@ -1,5 +1,6 @@
 #about {
     height: 500px;
+    font-family: 'Antonio', sans-serif;
     background-color: #2B2B2B;
     display: flex;
 }
