@@ -3,6 +3,11 @@
   width: 70vw;
   margin: 3em auto;
   padding: 2em;
+  border-bottom: 1px solid 	#787878;
+}
+.info {
+  padding: 15px;
+  margin: 0;
 }
 .skillTitle {
   margin-top: 8px;
@@ -58,6 +63,43 @@
 .strength-columns h2 {
   padding: 15px;
   margin: 0;
+}
+.strength-columns p {
+  width: 80px;
+  text-align: left;
+  padding: 15px;
+}
+.strength-container {
+  position: relative;
+  left: 2%;
+  width: 95%;
+  background-color: #787878;
+}
+.mySQL {
+  text-align: right;
+  padding: 15px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 87%;
+  background-color: black;
+}
+.hyper, .css, .java {
+  text-align: right;
+  padding: 15px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.hyper {
+  width: 86%;
+  background-color: black;
+}
+.css {
+  width: 82%;
+  background-color: black;
+}
+.java {
+  width: 79%;
+  background-color: black;
 }
 
 
