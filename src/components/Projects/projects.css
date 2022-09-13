@@ -1,0 +1,48 @@
+.projects {
+    background-color: #2B2B2B;
+    padding: 45px;
+}
+.container {
+    box-shadow: 50px 49px 33px -7px rgba(0,0,0,0.52);
+    color: #2B2B2B;
+    position: relative;
+    width: 50% !important;
+    left: 1%;
+    margin: 20px auto;
+    padding: 0px !important;
+    border-radius: 25px;
+}
+.carousel-inner {
+    border-radius: 25px;
+}
+.imageOne {
+    background-image: url(../../Images/Bootcamp.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imageTwo {
+    background-image: url(../../Images/weatherApp.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imageThree {
+    background-image: url(../../Images/teamProfileGenerator.PNG);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.carousel-caption h3 p {
+    color: black;
+}
+
+
+
+@media screen and (max-width: 996px) {
+    .container {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .container {
+        width: 10%;
+    }
+}

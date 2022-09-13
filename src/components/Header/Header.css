@@ -13,6 +13,7 @@
   width: 85%;
   height: 450px;
   font-family: 'Antonio', sans-serif;
+  font-weight: 600;
 }
 img {
   margin-right: 25px;
@@ -21,7 +22,7 @@ img {
   opacity: .8;
   color: whitesmoke;
   text-align: center;
-  font-size: 75px;
+  font-size: 100px;
   position: relative;
   top: 5%;
 }

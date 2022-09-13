@@ -7,7 +7,7 @@ export default function About() {
     <section id='about'>
       <div className='aboutSection'>
         <div className='picDiv'>
-          <img id="myPic" src={Louvre} alt="Man outside of the Louvre"></img>
+          <img id="myPic" src={Louvre} alt="Matthew Castoreno at the Louvre Museum"></img>
         </div>
         <div className='aboutDiv'>
           <h2>About Me</h2>
