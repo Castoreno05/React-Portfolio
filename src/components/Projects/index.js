@@ -13,10 +13,15 @@ export default function Projects() {
           <Col>
             <Carousel>
               <Carousel.Item interval={2000}>
-                <img
-                  className="d-block w-100 imageOne"
-                  style={{height:"500px"}}
-                />
+                <a
+                  href="https://github.com/Castoreno05/BootcampBlog"
+                  target="_blank"
+                >
+                  <img
+                    className="d-block w-100 imageOne"
+                    style={{ height: "500px" }}
+                  />
+                </a>
                 <Carousel.Caption>
                   <h3>First slide label</h3>
                   <p>
@@ -25,10 +30,15 @@ export default function Projects() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={2000}>
-                <img
-                  className="d-block w-100 imageTwo"
-                  style={{height:"500px"}}
-                />
+                <a
+                  href="https://github.com/Castoreno05/WeatherApp"
+                  target="_blank"
+                >
+                  <img
+                    className="d-block w-100 imageTwo"
+                    style={{ height: "500px" }}
+                  />
+                </a>
                 <Carousel.Caption>
                   <h3>Second slide label</h3>
                   <p>
@@ -37,10 +47,15 @@ export default function Projects() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={2000}>
-                <img
-                  className="d-block w-100 imageThree"
-                  style={{height:"500px"}}
-                />
+                <a
+                  href="https://github.com/Castoreno05/TeamProfileGenerator"
+                  target="_blank"
+                >
+                  <img
+                    className="d-block w-100 imageThree"
+                    style={{ height: "500px" }}
+                  />
+                </a>
                 <Carousel.Caption>
                   <h3>Third slide label</h3>
                   <p>

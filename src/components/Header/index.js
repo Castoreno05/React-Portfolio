@@ -1,23 +1,32 @@
 import React from "react";
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-scroll";
 import {
   faAddressCard,
   faHouse,
   faDiagramProject,
-  faFile,
   faArrowCircleDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import jsPDF from 'jspdf'
+import resume from '../../Images/Resume.PNG'
 import "./header.css";
 
 export default function Header() {
+
+  const pdfGenerate = () => {
+    var doc = new jsPDF('landscape', 'px', 'a4', 'false');
+    doc.addImage(resume, 'PNG', 65,20,500,400)
+    doc.save('resume.pdf')
+    console.log('saved')
+  }
+
   return (
     <div className="header">
       <Navbar bg="dark" variant="dark" fixed="top" expand="xxl">
         <Navbar.Brand>
-          <a href="https://github.com/Castoreno05/Project_3"></a>
+          <a href="https://github.com/Castoreno05/Project_3"/>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
@@ -31,9 +40,9 @@ export default function Header() {
             <Nav.Link href="/about">
               <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>
             </Nav.Link>
-            <Nav.Link href="/#skills">
-              <FontAwesomeIcon icon={faFile}></FontAwesomeIcon>
-            </Nav.Link>
+            <Button onClick={pdfGenerate}>
+              Resume
+            </Button>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
