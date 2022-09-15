@@ -89,7 +89,6 @@ export default function Header() {
         </div>
       </section>
       <div className="arrowDown">
-        <h3>About Me</h3>
         <Link to="about" spy={true} smooth={true} duration={500}>
           <FontAwesomeIcon
             className="arrow"
