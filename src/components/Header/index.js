@@ -1,14 +1,9 @@
 import React from "react";
 import { Nav, Navbar, Button } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-scroll";
-import {
-  faPhone,
-  faHouse,
-  faFileCode,
-  faArrowCircleDown,
-} from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { FaGithub, FaLinkedin, FaFileCsv, FaHome, FaUserAlt, FaFileCode } from "react-icons/fa";
+import { BsArrowDownCircleFill } from "react-icons/bs";
+import { SiMinutemailer } from "react-icons/si"
 import jsPDF from "jspdf";
 import resume from "../../Images/Resume.PNG";
 import "./header.css";
@@ -47,23 +42,28 @@ export default function Header() {
             style={{ width: "auto" }}
           >
             <Button>
-            <FontAwesomeIcon icon={faHouse}></FontAwesomeIcon>
+              <FaHome />
             </Button>
           </Link>
           <br></br>
           <Link to="projects" spy={true} offset={-200} smooth={true} duration={500}>
             <Button>
-              <FontAwesomeIcon icon={faFileCode}></FontAwesomeIcon>
+              <FaFileCode/>
             </Button>
           </Link>
           <br></br>
           <Link to="contact" spy={true} smooth={true} duration={500}>
             <Button>
-            <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
+              <SiMinutemailer/>
             </Button>
           </Link>
           <br></br>
-          <Button onClick={pdfGenerate}>Resume</Button>
+          <Link to="about" spy={true} smooth={true} duration={500}>
+            <Button>
+              <FaUserAlt />
+            </Button>
+
+          </Link>
         </Nav>
         {/* </Navbar.Collapse> */}
       </Navbar>
@@ -80,20 +80,21 @@ export default function Header() {
           </p>
         </div>
         <div className="socialLinks">
-          <FontAwesomeIcon id="githubLink" icon={faEnvelope}></FontAwesomeIcon>
-          <FontAwesomeIcon id="resumeLink" icon={faEnvelope}></FontAwesomeIcon>
-          <FontAwesomeIcon
-            id="linkedinLink"
-            icon={faEnvelope}
-          ></FontAwesomeIcon>
+          <a href="https://github.com/Castoreno05" target="_blank">
+            <FaGithub id="githubLink" />
+          </a>
+          <a href="https://www.linkedin.com/in/matthew-castoreno-4973a923b/" target="_blank">
+            <FaLinkedin id="linkedinLink" />
+          </a>
+          <a onClick={pdfGenerate}>
+            <FaFileCsv id="resumeLink" />
+          </a>
+
         </div>
       </section>
       <div className="arrowDown">
         <Link to="about" spy={true} smooth={true} duration={500}>
-          <FontAwesomeIcon
-            className="arrow"
-            icon={faArrowCircleDown}
-          ></FontAwesomeIcon>
+          <BsArrowDownCircleFill className="arrow"/>
         </Link>
       </div>
     </div>
