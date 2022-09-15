@@ -3,48 +3,69 @@ import { Nav, Navbar, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-scroll";
 import {
-  faAddressCard,
+  faPhone,
   faHouse,
-  faDiagramProject,
+  faFileCode,
   faArrowCircleDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import jsPDF from 'jspdf'
-import resume from '../../Images/Resume.PNG'
+import jsPDF from "jspdf";
+import resume from "../../Images/Resume.PNG";
 import "./header.css";
 
 export default function Header() {
-
   const pdfGenerate = () => {
-    var doc = new jsPDF('landscape', 'px', 'a4', 'false');
-    doc.addImage(resume, 'PNG', 65,20,500,400)
-    doc.save('resume.pdf')
-    console.log('saved')
-  }
+    var doc = new jsPDF("landscape", "px", "a4", "false");
+    doc.addImage(resume, "PNG", 65, 20, 500, 400);
+    doc.save("resume.pdf");
+    console.log("saved");
+  };
 
   return (
-    <div className="header">
-      <Navbar bg="dark" variant="dark" fixed="top" expand="xxl">
-        <Navbar.Brand>
-          <a href="https://github.com/Castoreno05/Project_3"/>
-        </Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse>
-          <Nav>
-            <Nav.Link href="/">
-              <FontAwesomeIcon icon={faHouse}></FontAwesomeIcon>
-            </Nav.Link>
-            <Nav.Link href="/projects">
-              <FontAwesomeIcon icon={faDiagramProject}></FontAwesomeIcon>
-            </Nav.Link>
-            <Nav.Link href="/about">
-              <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>
-            </Nav.Link>
-            <Button onClick={pdfGenerate}>
-              Resume
+    <div className="header" id="header">
+      <Navbar
+        variant="dark"
+        style={{ position: "fixed", bottom: "40%", right: "0", width: "150px" }}
+      >
+        {/* <Navbar.Brand>
+          <a href="https://github.com/Castoreno05/Project_3" />
+        </Navbar.Brand> */}
+        {/* <Navbar.Toggle /> */}
+        {/* <Navbar.Collapse> */}
+        <Nav
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            width: "auto",
+          }}
+        >
+          <Link
+            to="header"
+            spy={true}
+            smooth={true}
+            duration={500}
+            style={{ width: "auto" }}
+          >
+            <Button>
+            <FontAwesomeIcon icon={faHouse}></FontAwesomeIcon>
             </Button>
-          </Nav>
-        </Navbar.Collapse>
+          </Link>
+          <br></br>
+          <Link to="projects" spy={true} offset={-200} smooth={true} duration={500}>
+            <Button>
+              <FontAwesomeIcon icon={faFileCode}></FontAwesomeIcon>
+            </Button>
+          </Link>
+          <br></br>
+          <Link to="contact" spy={true} smooth={true} duration={500}>
+            <Button>
+            <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
+            </Button>
+          </Link>
+          <br></br>
+          <Button onClick={pdfGenerate}>Resume</Button>
+        </Nav>
+        {/* </Navbar.Collapse> */}
       </Navbar>
       <section className="intro">
         <h1 className="name">Matthew Castoreno</h1>
@@ -68,8 +89,12 @@ export default function Header() {
         </div>
       </section>
       <div className="arrowDown">
+        <h3>About Me</h3>
         <Link to="about" spy={true} smooth={true} duration={500}>
-        <FontAwesomeIcon icon={faArrowCircleDown}></FontAwesomeIcon>
+          <FontAwesomeIcon
+            className="arrow"
+            icon={faArrowCircleDown}
+          ></FontAwesomeIcon>
         </Link>
       </div>
     </div>

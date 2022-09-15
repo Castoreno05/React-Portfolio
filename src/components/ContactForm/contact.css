@@ -1,6 +1,5 @@
 .contactForm {
   height: 65vh;
-  background: #0f0f0f;
   position: relative;
   bottom: 150px;
 }
@@ -12,7 +11,7 @@
   width: 100%;
   margin: 0 auto;
   position: relative;
-  top: 60px;
+  top: 100px;
 }
 
 #contact input[type="text"],
