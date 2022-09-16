@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+.footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.ghPages {
+    text-align: center;
+    margin: 5px 5px;
+    height: 45px;
+}
+.footerNav p {
+    margin: 10px 10px;
+}
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    color: #0d6efd;
+  }

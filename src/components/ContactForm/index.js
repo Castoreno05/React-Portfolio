@@ -37,7 +37,7 @@ export default function Contact() {
     <div className="contactForm">
       <div className="contactContainer">
         <div id="contact" action="" method="post">
-          <h3>Contact me</h3>
+          <h3>Contact Me</h3>
           <br></br>
           <input
             placeholder="Your name"

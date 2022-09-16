@@ -36,7 +36,7 @@ nav .navBtns {
   top: 20%;
   left: 7.5%;
   width: 85%;
-  height: 500px;
+  height: 550px;
   font-family: "Antonio", sans-serif;
   font-weight: 600;
 }
@@ -51,27 +51,26 @@ img {
   top: 5%;
 }
 .paragraphDiv {
-  width: 60%;
+  display: flex;
+  height: 310px;
+  width: 70%;
   margin: auto;
   position: relative;
   top: 10%;
   padding: 15px 20px;
 }
+.paragraphDiv p {
+  display: flex;
+  align-items: center;
+}
 .intro p {
+  line-height: 2.5;
   text-align: center;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 22px;
   flex-wrap: wrap;
   color: #bcb8b1;
 }
-.socialLinks {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  padding-bottom: 10px;
-  top: 10%;
-  color: #bcb8b1;
-}
+
 #githubLink,
 #resumeLink,
 #linkedinLink {
@@ -91,7 +90,7 @@ img {
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: 25%;
+  top: 20%;
 }
 .arrowDown {
   color: #bcb8b1;
