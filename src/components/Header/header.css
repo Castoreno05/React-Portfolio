@@ -8,12 +8,26 @@
 }
 .header a {
   color: inherit;
+  cursor: pointer;
 }
-nav .btn {
+
+#resumeLink:hover {
+  color: #0a58ca;
+}
+
+nav .navBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   border-radius: 20px;
   border: none;
   background-color: #bcb8b1;
-  width: 80px;
+  width: 60px;
+  height: 50px;
+}
+.navBtns:hover {
+  background-color: yellowgreen !important;
 }
 .intro {
   display: inline-block;
@@ -87,13 +101,3 @@ img {
   width: 65px;
   padding: 10px 10px;
 }
-
-/* .imageDiv {
-    background-image: url(../../Images/Louvre.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 55px;
-    padding: 142px 100px;
-    width: 150px;
-    height: 100px;
-} */

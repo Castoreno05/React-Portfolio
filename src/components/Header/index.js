@@ -7,10 +7,10 @@ import {
   FaFileCsv,
   FaHome,
   FaUserAlt,
-  FaFileCode,
 } from "react-icons/fa";
 import { BsArrowDownCircleFill } from "react-icons/bs";
 import { SiMinutemailer } from "react-icons/si";
+import { FaLaptopCode } from "react-icons/fa";
 import jsPDF from "jspdf";
 import resume from "../../Images/Resume.PNG";
 import "./header.css";
@@ -27,16 +27,24 @@ export default function Header() {
     <div className="header" id="header">
       <Navbar
         variant="dark"
-        style={{ position: "fixed", bottom: "40%", right: "0", width: "150px" }}
+        style={{
+          position: "fixed",
+          bottom: "40%",
+          right: "5%",
+          background: "gray",
+          borderRadius: "30px",
+          height: "300px",
+          width: "80px",
+          opacity: ".8"
+        }}
       >
         {/* <Navbar.Brand>
           <a href="https://github.com/Castoreno05/Project_3" />
         </Navbar.Brand> */}
         {/* <Navbar.Toggle /> */}
-        {/* <Navbar.Collapse> */}
         <Nav
           style={{
-            display: "flex",
+            margin: "auto",
             flexDirection: "column",
             width: "auto",
           }}
@@ -48,7 +56,7 @@ export default function Header() {
             duration={500}
             style={{ width: "auto" }}
           >
-            <Button>
+            <Button variant="none" className="navBtns">
               <FaHome id="home" />
             </Button>
           </Link>
@@ -56,28 +64,27 @@ export default function Header() {
           <Link
             to="projects"
             spy={true}
-            offset={-200}
+            offset={-80}
             smooth={true}
             duration={500}
           >
-            <Button>
-              <FaFileCode id="code" />
+            <Button variant="none" className="navBtns">
+              <FaLaptopCode id="code" />
             </Button>
           </Link>
           <br></br>
           <Link to="contact" spy={true} smooth={true} duration={500}>
-            <Button>
+            <Button variant="none" className="navBtns">
               <SiMinutemailer id="mail" />
             </Button>
           </Link>
           <br></br>
           <Link to="about" spy={true} smooth={true} duration={500}>
-            <Button>
+            <Button variant="none" className="navBtns">
               <FaUserAlt id="user" />
             </Button>
           </Link>
         </Nav>
-        {/* </Navbar.Collapse> */}
       </Navbar>
       <section className="intro">
         <h1 className="name">Matthew Castoreno</h1>
