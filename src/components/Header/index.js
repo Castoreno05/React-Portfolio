@@ -1,9 +1,16 @@
 import React from "react";
 import { Nav, Navbar, Button } from "react-bootstrap";
 import { Link } from "react-scroll";
-import { FaGithub, FaLinkedin, FaFileCsv, FaHome, FaUserAlt, FaFileCode } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaFileCsv,
+  FaHome,
+  FaUserAlt,
+  FaFileCode,
+} from "react-icons/fa";
 import { BsArrowDownCircleFill } from "react-icons/bs";
-import { SiMinutemailer } from "react-icons/si"
+import { SiMinutemailer } from "react-icons/si";
 import jsPDF from "jspdf";
 import resume from "../../Images/Resume.PNG";
 import "./header.css";
@@ -42,27 +49,32 @@ export default function Header() {
             style={{ width: "auto" }}
           >
             <Button>
-              <FaHome />
+              <FaHome id="home" />
             </Button>
           </Link>
           <br></br>
-          <Link to="projects" spy={true} offset={-200} smooth={true} duration={500}>
+          <Link
+            to="projects"
+            spy={true}
+            offset={-200}
+            smooth={true}
+            duration={500}
+          >
             <Button>
-              <FaFileCode/>
+              <FaFileCode id="code" />
             </Button>
           </Link>
           <br></br>
           <Link to="contact" spy={true} smooth={true} duration={500}>
             <Button>
-              <SiMinutemailer/>
+              <SiMinutemailer id="mail" />
             </Button>
           </Link>
           <br></br>
           <Link to="about" spy={true} smooth={true} duration={500}>
             <Button>
-              <FaUserAlt />
+              <FaUserAlt id="user" />
             </Button>
-
           </Link>
         </Nav>
         {/* </Navbar.Collapse> */}
@@ -83,18 +95,20 @@ export default function Header() {
           <a href="https://github.com/Castoreno05" target="_blank">
             <FaGithub id="githubLink" />
           </a>
-          <a href="https://www.linkedin.com/in/matthew-castoreno-4973a923b/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/matthew-castoreno-4973a923b/"
+            target="_blank"
+          >
             <FaLinkedin id="linkedinLink" />
           </a>
           <a onClick={pdfGenerate}>
             <FaFileCsv id="resumeLink" />
           </a>
-
         </div>
       </section>
       <div className="arrowDown">
         <Link to="about" spy={true} smooth={true} duration={500}>
-          <BsArrowDownCircleFill className="arrow"/>
+          <BsArrowDownCircleFill className="arrow" />
         </Link>
       </div>
     </div>
