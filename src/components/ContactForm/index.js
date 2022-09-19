@@ -6,8 +6,15 @@ export default function Contact() {
   const [to_name, setTo_name] = useState("");
   const [from_name, setFrom_name] = useState("");
   const [message, setMessage] = useState("");
+  const inputs = document.querySelectorAll('input');
+  const textField = document.querySelectorAll('textarea')
 
-  const submitInfo = () => {
+  const submitInfo = (e) => {
+    e.preventDefault();
+    
+    textField.forEach(textarea => textarea.value = '');
+    inputs.forEach(input => input.value = '');
+
     console.log(to_name + from_name + message);
 
     var emailContent = {
@@ -34,7 +41,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="contactForm">
+    <form className="contactForm">
       <div className="contactContainer">
         <div id="contact" action="" method="post">
           <h3>Contact Me</h3>
@@ -80,6 +87,6 @@ export default function Contact() {
           </p>
         </div>
       </div>
-    </div>
+    </form>
   );
 }
