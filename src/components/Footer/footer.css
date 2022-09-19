@@ -1,7 +1,9 @@
 .footer {
     display: flex;
     justify-content: center;
-    height: 550px;
+    height: 800px;
+    background-color: #080708;
+    font-family: "Antonio", sans-serif;
 }
 .footerContainer {
     display: flex;
@@ -9,12 +11,20 @@
     flex-direction: column;
 }
 .ghPages {
+    text-transform: uppercase;
+    color: whitesmoke;
     text-align: center;
     margin: 5px 5px;
     height: 45px;
 }
 .footerNav p {
+    text-transform: uppercase;
+    cursor: pointer;
+    color: whitesmoke;
     margin: 10px 10px;
+}
+.footerNav p:hover {
+    color: #0d6efd;
 }
 .socialLinks {
     display: flex;

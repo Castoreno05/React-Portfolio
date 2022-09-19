@@ -4,14 +4,25 @@ import { Link } from "react-scroll";
 import {
   FaHome,
   FaUserAlt,
+  FaGithub,
+  FaLinkedin,
+  FaFileCsv,
 } from "react-icons/fa";
 import { GiFootprint } from "react-icons/gi";
 import { BsArrowDownCircleFill } from "react-icons/bs";
 import { SiMinutemailer } from "react-icons/si";
 import { FaLaptopCode } from "react-icons/fa";
+import jsPDF from "jspdf";
+import resume from "../../Images/Resume.PNG";
 import "./header.css";
 
 export default function Header() {
+  const pdfGenerate = () => {
+    var doc = new jsPDF("landscape", "px", "a4", "false");
+    doc.addImage(resume, "PNG", 65, 20, 500, 400);
+    doc.save("resume.pdf");
+    console.log("saved");
+  };
   return (
     <div className="header" id="header">
       <Navbar
@@ -24,7 +35,7 @@ export default function Header() {
           borderRadius: "30px",
           height: "375px",
           width: "80px",
-          opacity: ".8"
+          opacity: ".8",
         }}
       >
         {/* <Navbar.Brand>
@@ -53,7 +64,7 @@ export default function Header() {
           <Link
             to="projects"
             spy={true}
-            offset={-95}
+            offset={-200}
             smooth={true}
             duration={500}
           >
@@ -62,7 +73,13 @@ export default function Header() {
             </Button>
           </Link>
           <br></br>
-          <Link to="contact" spy={true} offset={-175} smooth={true} duration={500}>
+          <Link
+            to="contact"
+            spy={true}
+            offset={-315}
+            smooth={true}
+            duration={500}
+          >
             <Button variant="none" className="navBtns">
               <SiMinutemailer id="mail" />
             </Button>
@@ -75,9 +92,9 @@ export default function Header() {
           </Link>
           <br></br>
           <Link to="footer" spy={true} smooth={true} duration={500}>
-          <Button variant="none" className="navBtns">
-            <GiFootprint id="foot"/>
-          </Button>
+            <Button variant="none" className="navBtns">
+              <GiFootprint id="foot" />
+            </Button>
           </Link>
         </Nav>
       </Navbar>
@@ -94,6 +111,20 @@ export default function Header() {
           </p>
         </div>
       </section>
+      <div className="socialLinks">
+        <a href="https://github.com/Castoreno05" target="_blank">
+          <FaGithub id="githubLink" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/matthew-castoreno-4973a923b/"
+          target="_blank"
+        >
+          <FaLinkedin id="linkedinLink" />
+        </a>
+        <a onClick={pdfGenerate}>
+          <FaFileCsv id="resumeLink" />
+        </a>
+      </div>
       <div className="arrowDown">
         <Link to="about" spy={true} smooth={true} duration={500}>
           <BsArrowDownCircleFill className="arrow" />

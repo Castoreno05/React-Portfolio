@@ -23,7 +23,7 @@ export default function Footer() {
     <div className='footer' id='foot'>
       <div className='footerContainer'>
         <h1 className='ghPages'>Github Pages</h1>
-        <Navbar variant="none">
+        <Navbar variant="none" style={{justifyContent:"center"}}>
           <Nav className='footerNav'>
             <Link to="header" spy={true} smooth={true} duration={500}>
               <p>Home</p></Link>
@@ -50,6 +50,9 @@ export default function Footer() {
           <a onClick={pdfGenerate}>
             <FaFileCsv id="resumeLink" />
           </a>
+        </div>
+        <div classname="rights">
+          <p>© Github Pages and Matthew Castoreno. All rights reserved.</p>
         </div>
       </div>
     </div>

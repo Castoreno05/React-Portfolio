@@ -1,71 +1,189 @@
-import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Button } from "react-bootstrap";
 import "./projects.css";
 
 export default function Projects() {
+  
+  function removeStyle() {
+    console.log("Clicked")
+  }
+
+  
+
   return (
     <div className="projects" id="projects">
       <Container>
         <Row>
-          <Col>
-            <Carousel>
-              <Carousel.Item interval={2000}>
-                <a
-                  href="https://github.com/Castoreno05/BootcampBlog"
-                  target="_blank"
-                >
-                  <img
-                    className="d-block w-100 imageOne"
-                    style={{ height: "500px" }}
-                  />
-                </a>
-                <Carousel.Caption>
-                  <h3>First slide label</h3>
-                  <p>
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  </p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item interval={2000}>
-                <a
-                  href="https://github.com/Castoreno05/WeatherApp"
-                  target="_blank"
-                >
-                  <img
-                    className="d-block w-100 imageTwo"
-                    style={{ height: "500px" }}
-                  />
-                </a>
-                <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item interval={2000}>
-                <a
-                  href="https://github.com/Castoreno05/TeamProfileGenerator"
-                  target="_blank"
-                >
-                  <img
-                    className="d-block w-100 imageThree"
-                    style={{ height: "500px" }}
-                  />
-                </a>
-                <Carousel.Caption>
-                  <h3>Third slide label</h3>
-                  <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
-                  </p>
-                </Carousel.Caption>
-              </Carousel.Item>
-            </Carousel>
-          </Col>
+          <Button variant="none" onClick={removeStyle}>
+            <h3>Title</h3>
+            <section
+              className="projectInfo"
+              id="chalOne"
+              style={{ display: "none" }}
+            >
+              <div className="imageTwo"></div>
+              <p>
+                Lorem ipsum dolor sit amet, putent nostrum disputando cu pro.
+                Ius modo maiorum cu, facilis ocurreret eu eos. Ei per vero
+                error. Sed iudico causae eu, usu ea noster hendrerit. Eu labores
+                ponderum iudicabit ius, ne vim utamur ocurreret. Ea sumo
+                placerat has, ex ridens legendos vis. Eam id erant nonumy, mei
+                ex delectus petentium scribentur, qui id probo animal adipisci.
+                Ut vocibus indoctum sit, est brute nominati consectetuer no.
+              </p>
+            </section>
+          </Button>
+        </Row>
+        <Row>
+          <Button variant="none" onClick={removeStyle}>
+            <h3>Title</h3>
+            <section
+              className="projectInfo"
+              id="chalTwo"
+              style={{ display: "none" }}
+            >
+              <div className="imageTwo"></div>
+              <p>
+                Lorem ipsum dolor sit amet, putent nostrum disputando cu pro.
+                Ius modo maiorum cu, facilis ocurreret eu eos. Ei per vero
+                error. Sed iudico causae eu, usu ea noster hendrerit. Eu labores
+                ponderum iudicabit ius, ne vim utamur ocurreret. Ea sumo
+                placerat has, ex ridens legendos vis. Eam id erant nonumy, mei
+                ex delectus petentium scribentur, qui id probo animal adipisci.
+                Ut vocibus indoctum sit, est brute nominati consectetuer no.
+              </p>
+            </section>
+          </Button>
+        </Row>
+        <Row>
+          <Button variant="none" onClick={removeStyle}>
+            <h3>Title</h3>
+            <section
+              className="projectInfo"
+              id="chalThree"
+              style={{ display: "none" }}
+            >
+              <div className="imageTwo"></div>
+              <p>
+                Lorem ipsum dolor sit amet, putent nostrum disputando cu pro.
+                Ius modo maiorum cu, facilis ocurreret eu eos. Ei per vero
+                error. Sed iudico causae eu, usu ea noster hendrerit. Eu labores
+                ponderum iudicabit ius, ne vim utamur ocurreret. Ea sumo
+                placerat has, ex ridens legendos vis. Eam id erant nonumy, mei
+                ex delectus petentium scribentur, qui id probo animal adipisci.
+                Ut vocibus indoctum sit, est brute nominati consectetuer no.
+              </p>
+            </section>
+          </Button>
+        </Row>
+        <Row>
+          <Button variant="none" onClick={removeStyle}>
+            <h3>Title</h3>
+            <section
+              className="projectInfo"
+              id="chalFour"
+              style={{ display: "none" }}
+            >
+              <div className="imageTwo"></div>
+              <p>
+                Lorem ipsum dolor sit amet, putent nostrum disputando cu pro.
+                Ius modo maiorum cu, facilis ocurreret eu eos. Ei per vero
+                error. Sed iudico causae eu, usu ea noster hendrerit. Eu labores
+                ponderum iudicabit ius, ne vim utamur ocurreret. Ea sumo
+                placerat has, ex ridens legendos vis. Eam id erant nonumy, mei
+                ex delectus petentium scribentur, qui id probo animal adipisci.
+                Ut vocibus indoctum sit, est brute nominati consectetuer no.
+              </p>
+            </section>
+          </Button>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Button variant="none" onClick={removeStyle}>
+            <h3>Title</h3>
+            <section
+              className="projectInfo"
+              id="chalFive"
+              style={{ display: "none" }}
+            >
+              <div className="imageTwo"></div>
+              <p>
+                Lorem ipsum dolor sit amet, putent nostrum disputando cu pro.
+                Ius modo maiorum cu, facilis ocurreret eu eos. Ei per vero
+                error. Sed iudico causae eu, usu ea noster hendrerit. Eu labores
+                ponderum iudicabit ius, ne vim utamur ocurreret. Ea sumo
+                placerat has, ex ridens legendos vis. Eam id erant nonumy, mei
+                ex delectus petentium scribentur, qui id probo animal adipisci.
+                Ut vocibus indoctum sit, est brute nominati consectetuer no.
+              </p>
+            </section>
+          </Button>
+        </Row>
+        <Row>
+          <Button variant="none" onClick={removeStyle}>
+            <h3>Title</h3>
+            <section
+              className="projectInfo"
+              id="chalSix"
+              style={{ display: "none" }}
+            >
+              <div className="imageTwo"></div>
+              <p>
+                Lorem ipsum dolor sit amet, putent nostrum disputando cu pro.
+                Ius modo maiorum cu, facilis ocurreret eu eos. Ei per vero
+                error. Sed iudico causae eu, usu ea noster hendrerit. Eu labores
+                ponderum iudicabit ius, ne vim utamur ocurreret. Ea sumo
+                placerat has, ex ridens legendos vis. Eam id erant nonumy, mei
+                ex delectus petentium scribentur, qui id probo animal adipisci.
+                Ut vocibus indoctum sit, est brute nominati consectetuer no.
+              </p>
+            </section>
+          </Button>
+        </Row>
+        <Row>
+          <Button variant="none" onClick={removeStyle}>
+            <h3>Title</h3>
+            <section
+              className="projectInfo"
+              id="chalSeven"
+              style={{ display: "none" }}
+            >
+              <div className="imageTwo"></div>
+              <p>
+                Lorem ipsum dolor sit amet, putent nostrum disputando cu pro.
+                Ius modo maiorum cu, facilis ocurreret eu eos. Ei per vero
+                error. Sed iudico causae eu, usu ea noster hendrerit. Eu labores
+                ponderum iudicabit ius, ne vim utamur ocurreret. Ea sumo
+                placerat has, ex ridens legendos vis. Eam id erant nonumy, mei
+                ex delectus petentium scribentur, qui id probo animal adipisci.
+                Ut vocibus indoctum sit, est brute nominati consectetuer no.
+              </p>
+            </section>
+          </Button>
+        </Row>
+        <Row>
+          <Button variant="none" onClick={removeStyle}>
+            <h3>Title</h3>
+            <section
+              className="projectInfo"
+              id="chalEight"
+              style={{ display: "none" }}
+            >
+              <div className="imageTwo"></div>
+              <p>
+                Lorem ipsum dolor sit amet, putent nostrum disputando cu pro.
+                Ius modo maiorum cu, facilis ocurreret eu eos. Ei per vero
+                error. Sed iudico causae eu, usu ea noster hendrerit. Eu labores
+                ponderum iudicabit ius, ne vim utamur ocurreret. Ea sumo
+                placerat has, ex ridens legendos vis. Eam id erant nonumy, mei
+                ex delectus petentium scribentur, qui id probo animal adipisci.
+                Ut vocibus indoctum sit, est brute nominati consectetuer no.
+              </p>
+            </section>
+          </Button>
         </Row>
       </Container>
     </div>

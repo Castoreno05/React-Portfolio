@@ -1,19 +1,63 @@
 .projects {
-    background-color: #2B2B2B;
+    display: flex;
+    justify-content: space-evenly;
     padding: 45px;
 }
 .container {
-    box-shadow: 50px 49px 33px -7px rgba(0,0,0,0.52);
     color: #2B2B2B;
     width: 50% !important;
     margin: 20px auto;
-    padding: 0px !important;
     border-radius: 25px;
 }
-.carousel-inner {
-    border-radius: 25px;
+.row {
+    border: solid 1px black;
+    padding: 10px;
 }
-.imageOne {
+.row h3 {
+    display: flex;
+    justify-content: center;
+}
+.row Button {
+    border: none;
+}
+.projectInfo {
+    display: flex;
+    justify-content: space-evenly;
+}
+.projectInfo p {
+    margin: 10px 10px;
+    width: 300px;
+}
+.row:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.imageTwo {
+    height: 250px;
+    width: 500px;
+    margin: 10px 10px;
+    background: url(../../Images/weatherApp.PNG) no-repeat top center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 996px) {
+    .container {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .container {
+        width: 10%;
+    }
+}
+
+
+
+/* .carousel-inner {
+    border-radius: 25px;
+} */
+/* .imageOne {
     background-image: url(../../Images/Bootcamp.PNG);
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,17 +74,4 @@
 }
 .carousel-caption h3 p {
     color: black;
-}
-
-
-
-@media screen and (max-width: 996px) {
-    .container {
-        width: 50%;
-    }
-}
-@media screen and (max-width: 750px) {
-    .container {
-        width: 10%;
-    }
-}
+} */
