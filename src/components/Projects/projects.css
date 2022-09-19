@@ -1,43 +1,64 @@
 .projects {
     display: flex;
-    justify-content: space-evenly;
-    padding: 45px;
-}
-.container {
-    color: #2B2B2B;
-    width: 50% !important;
-    margin: 20px auto;
-    border-radius: 25px;
-}
-.row {
-    border: solid 1px black;
-    padding: 10px;
-}
-.row h3 {
-    display: flex;
-    justify-content: center;
-}
-.row Button {
-    border: none;
-}
-.projectInfo {
-    display: flex;
-    justify-content: space-evenly;
-}
-.projectInfo p {
+    flex-direction: column;
     margin: 10px 10px;
-    width: 300px;
+    padding: 25px;
 }
-.row:hover {
+.projects h1 {
+    padding: 10px;
+    margin: 10px 10px;
+    text-align: center;
+}
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.projectRow {
+    display: flex;
+    flex-direction: row;
+}
+.flick {
+    background-color: #bcb8b1;
+    color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 10px;
+    width: 100%;
+}
+.flick:hover {
     background-color: yellowgreen;
-    cursor: pointer;
 }
-
+.projectContainer p {
+    padding: 10px 10px;
+}
+.imageOne{
+    height: 500px;
+    width: auto;
+    margin: 10px 10px;
+    background: url(../../Images/Bootcamp.PNG) no-repeat top center;
+    background-size: cover;
+}
 .imageTwo {
-    height: 250px;
-    width: 500px;
+    height: 500px;
+    width: auto;
     margin: 10px 10px;
     background: url(../../Images/weatherApp.PNG) no-repeat top center;
+    background-size: cover;
+}
+.imageThree {
+    height: 500px;
+    width: auto;
+    margin: 10px 10px;
+    background: url(../../Images/teamProfileGenerator.PNG) no-repeat top center;
+    background-size: cover;
+}
+.imageFour {
+    height: 500px;
+    width: auto;
+    margin: 10px 10px;
+    background: url(../../Images/teamProfileGenerator.PNG) no-repeat top center;
     background-size: cover;
 }
 
@@ -52,26 +73,3 @@
     }
 }
 
-
-
-/* .carousel-inner {
-    border-radius: 25px;
-} */
-/* .imageOne {
-    background-image: url(../../Images/Bootcamp.PNG);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.imageTwo {
-    background-image: url(../../Images/weatherApp.PNG);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.imageThree {
-    background-image: url(../../Images/teamProfileGenerator.PNG);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.carousel-caption h3 p {
-    color: black;
-} */
