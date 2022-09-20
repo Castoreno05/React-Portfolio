@@ -1,11 +1,13 @@
 .projects {
     display: flex;
     height: auto;
+    font-family: "Antonio", sans-serif;
     flex-direction: column;
     margin: 10px 10px;
     padding: 25px;
 }
 .projects h1 {
+    text-transform: uppercase;
     padding: 10px;
     margin: 10px 10px;
     text-align: center;
@@ -63,6 +65,14 @@
     background-size: cover;
 }
 /* CSS for collapsible  **************************************************************************************************************************************/
+
+.flick {
+    color: #080708;
+    text-align: left;
+    font-size: 40px;
+    font-family: "Antonio", sans-serif;
+    height: 80px;
+}
 
 .collapsible .content-parent {
     height: 0px;

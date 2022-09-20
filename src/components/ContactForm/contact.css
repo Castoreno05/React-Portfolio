@@ -122,3 +122,13 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}

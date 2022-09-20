@@ -10,6 +10,7 @@ const MODAL_STYLES = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
+  animation: "fadeIn 1s",
   zIndex: 1000,
 };
 const OVERLAY_STYLES = {
@@ -18,7 +19,8 @@ const OVERLAY_STYLES = {
   left: 0,
   right: 0,
   bottom: 0,
-  backgroundColor: "rgba(0, 0, 0, .75)",
+  animation: "fadeIn 1s",
+  backgroundColor: "rgba(0, 0, 0, .8)",
   zIndex: 1000,
 };
 

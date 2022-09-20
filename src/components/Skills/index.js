@@ -10,9 +10,7 @@ export default function Skills() {
           <h2>University of Texas - Austin, Texas</h2>
           <p className="info"><em>Full-stack web development</em> <span>•</span> 2022</p>
           <div className="skillColumn">
-            Ei omittam disputationi concludaturque per, cum ex labores appareat.
-            Eam maiestatis dissentiunt ut. At mel altera aperiri mandamus.At mel
-            altera aperiri mandamus. Eam offendit scripserit te.
+           HTML, CSS, Javascript, MySQL, MongoDB, Express, React.js
           </div>
           <h2>San Jacinto College - Pasadena, Texas</h2>
           <p className="info"><em>Process Technology</em> <span>•</span> 2016</p>
