@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Modal from "../Modal";
 import { Nav, Navbar, Button } from "react-bootstrap";
 import { Link } from "react-scroll";
 import {
@@ -17,7 +18,7 @@ import resume from "../../Images/Resume.PNG";
 import "./header.css";
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
   const pdfGenerate = () => {
     var doc = new jsPDF("landscape", "px", "a4", "false");
     doc.addImage(resume, "PNG", 65, 20, 500, 400);
@@ -74,17 +75,14 @@ export default function Header() {
             </Button>
           </Link>
           <br></br>
-          {/* <Link
-            to="contact"
-            spy={true}
-            offset={-315}
-            smooth={true}
-            duration={500}
-          > */}
-            <Button variant="none" className="navBtns">
-              <SiMinutemailer id="mail" />
-            </Button>
-          {/* </Link> */}
+          <Button
+            variant="none"
+            className="navBtns"
+            onClick={() => setIsOpen(true)}
+          >
+            <SiMinutemailer id="mail" />
+          </Button>
+          <Modal open={isOpen} onClose={() => setIsOpen(false)} />
           <br></br>
           <Link to="about" spy={true} smooth={true} duration={500}>
             <Button variant="none" className="navBtns">

@@ -7,7 +7,15 @@
 .contactContainer {
   max-width: 400px;
 }
-
+.contactHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.contactHeader .btn {
+  height: 40px;
+  border-radius: 15px;
+}
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],

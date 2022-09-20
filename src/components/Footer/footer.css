@@ -23,6 +23,9 @@
     color: whitesmoke;
     margin: 10px 10px;
 }
+.footerNav a {
+    text-decoration: none;
+}
 .footerNav p:hover {
     color: #0d6efd;
 }
