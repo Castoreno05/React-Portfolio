@@ -1,6 +1,6 @@
 import React from "react";
 
-const POP_STYLES = {
+const MODAL_STYLES = {
   position: "fixed",
   top: "50%",
   left: "50%",
@@ -17,13 +17,13 @@ const OVERLAY_STYLES = {
   zIndex: 1000
 };
 
-export default function Pop({ open, children, onClose }) {
+export default function Modal({ open, children, onClose }) {
   if (!open) return null;
 
   return (
     <>
       <div style={OVERLAY_STYLES} />
-      <div style={POP_STYLES}>
+      <div style={MODAL_STYLES}>
         <button onClick={onClose}>Close Modal</button>
         {children}
       </div>

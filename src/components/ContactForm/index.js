@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ReactDom from "react-dom";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
-import  Pop from "../Pop";
+import  Modal from "../Modal";
 
 export default function Contact() {
   const [isOpen, setIsOpen] = useState(false)
@@ -46,7 +46,7 @@ export default function Contact() {
   return ReactDom.createPortal(
     <div>
       <button onClick={() => setIsOpen(true)}>Open Modal</button>
-      <Pop open={isOpen} onClose={() => setIsOpen(false)}>
+      <Modal open={isOpen} onClose={() => setIsOpen(false)}>
         <form className="contactForm">
           <div className="contactContainer">
             <div id="contact" action="" method="post">
@@ -94,7 +94,7 @@ export default function Contact() {
             </div>
           </div>
         </form>
-      </Pop>
+      </Modal>
     </div>
       ,
     document.getElementById("portal")
