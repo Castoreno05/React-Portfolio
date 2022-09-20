@@ -1,19 +1,22 @@
 import React, { useState } from "react";
+import ReactDom from "react-dom";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import  Pop from "../Pop";
 
 export default function Contact() {
+  const [isOpen, setIsOpen] = useState(false)
   const [to_name, setTo_name] = useState("");
   const [from_name, setFrom_name] = useState("");
   const [message, setMessage] = useState("");
-  const inputs = document.querySelectorAll('input');
-  const textField = document.querySelectorAll('textarea')
+  const inputs = document.querySelectorAll("input");
+  const textField = document.querySelectorAll("textarea");
 
   const submitInfo = (e) => {
     e.preventDefault();
-    
-    textField.forEach(textarea => textarea.value = '');
-    inputs.forEach(input => input.value = '');
+
+    textField.forEach((textarea) => (textarea.value = ""));
+    inputs.forEach((input) => (input.value = ""));
 
     console.log(to_name + from_name + message);
 
@@ -40,53 +43,60 @@ export default function Contact() {
       );
   };
 
-  return (
-    <form className="contactForm">
-      <div className="contactContainer">
-        <div id="contact" action="" method="post">
-          <h3>Contact Me</h3>
-          <br></br>
-          <input
-            placeholder="Your name"
-            type="text"
-            tabIndex="1"
-            required
-            onChange={(event) => {
-              setTo_name(event.target.value);
-            }}
-          />
-          <input
-            placeholder="Your Email Address"
-            type="email"
-            tabIndex="2"
-            required
-            onChange={(event) => {
-              setFrom_name(event.target.value);
-            }}
-          />
-          <textarea
-            placeholder="Type your message here...."
-            tabIndex="3"
-            required
-            onChange={(event) => {
-              setMessage(event.target.value);
-            }}
-          ></textarea>
-          <button name="submit" type="submit" onClick={submitInfo}>
-            Submit
-          </button>
-          <p className="copyright">
-            Github Username{" "}
-            <a
-              href="https://github.com/Castoreno05"
-              target="_blank"
-              title="Github"
-            >
-              Castoreno05
-            </a>
-          </p>
-        </div>
-      </div>
-    </form>
+  return ReactDom.createPortal(
+    <div>
+      <button onClick={() => setIsOpen(true)}>Open Modal</button>
+      <Pop open={isOpen} onClose={() => setIsOpen(false)}>
+        <form className="contactForm">
+          <div className="contactContainer">
+            <div id="contact" action="" method="post">
+              <h3>Contact Me</h3>
+              <br></br>
+              <input
+                placeholder="Your name"
+                type="text"
+                tabIndex="1"
+                required
+                onChange={(event) => {
+                  setTo_name(event.target.value);
+                }}
+              />
+              <input
+                placeholder="Your Email Address"
+                type="email"
+                tabIndex="2"
+                required
+                onChange={(event) => {
+                  setFrom_name(event.target.value);
+                }}
+              />
+              <textarea
+                placeholder="Type your message here...."
+                tabIndex="3"
+                required
+                onChange={(event) => {
+                  setMessage(event.target.value);
+                }}
+              ></textarea>
+              <button name="submit" type="submit" onClick={submitInfo}>
+                Submit
+              </button>
+              <p className="copyright">
+                Github Username{" "}
+                <a
+                  href="https://github.com/Castoreno05"
+                  target="_blank"
+                  title="Github"
+                >
+                  Castoreno05
+                </a>
+              </p>
+            </div>
+          </div>
+        </form>
+      </Pop>
+    </div>
+      ,
+    document.getElementById("portal")
   );
 }
