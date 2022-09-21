@@ -18,9 +18,11 @@ export default function About() {
           <p>
             Hello, my name is Matthew Castoreno. I am currently based out of the
             Houston, Texas area. Earlier this year, I made the decision to
-            change my career path, and pursue web development. Prior to making
+            shift my career path and pursue web development. Prior to making
             that change, my professional career was in the Oil and Gas indusrty.
-            Throughout that journey I obtained aspirations of utilizing  
+            Throughout my experience I was exposed to technology that sparked an interest in web development.
+            I realized the enjoyment in creating applications using methods I learned in operations. Moving forward with my new found passion, I aspire to collaberate on a team that sharpens my skills and encourages growth. In my free time
+            I enjoy traveling, camping, hiking and staying physically active playing sports.
           </p>
         </div>
       </div>

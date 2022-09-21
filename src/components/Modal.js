@@ -72,7 +72,7 @@ export default function Modal({ open, children, onClose }) {
             <div id="contact" action="" method="post">
               <div className="contactHeader">
                 <h3>Contact Me</h3>
-                <Button onClick={onClose}><ImCross/></Button>
+                <Button variant="dark" onClick={onClose}><ImCross/></Button>
               </div>
               <br></br>
               <input

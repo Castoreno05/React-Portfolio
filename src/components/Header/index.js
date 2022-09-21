@@ -62,7 +62,7 @@ export default function Header() {
           <Link
             to="projects"
             spy={true}
-            offset={-200}
+            offset={-10}
             smooth={true}
             duration={500}
           >
@@ -97,7 +97,7 @@ export default function Header() {
         <h1 className="name">Matthew Castoreno</h1>
         <div className="paragraphDiv">
           <p>
-          Dedicatied Full stack web developer with professional experience in Process Operations. Industrious operator, scpecialized in managing unit/software processing systems. I enjoy utilizing my skills to solve time sensitive and complex problems. 
+            Dedicated Full-stack web developer with professional experience in Process Technology. Industrious Operator specialized in managing unit/software processing systems. I am in pursuit of a challenging position that will increase my knowledge in this field. I enjoy utilizing my skills and experience to solve time sensitive and complex problems.
           </p>
         </div>
       </section>

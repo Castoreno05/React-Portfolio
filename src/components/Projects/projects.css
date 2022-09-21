@@ -22,16 +22,8 @@
     display: flex;
     flex-direction: row;
 }
-.flick {
-    background-color: #bcb8b1;
-    color: whitesmoke;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 10px 10px;
-    width: 100%;
-}
 .flick:hover {
-    background-color: yellowgreen;
+    background-color: #F2545B;
 }
 .projectContainer p {
     padding: 10px 10px;
@@ -65,8 +57,15 @@
     background-size: cover;
 }
 /* CSS for collapsible  **************************************************************************************************************************************/
-
+.row>* {
+    display: contents !important;
+}
 .flick {
+    background-color: #bcb8b1;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 70%;
     color: #080708;
     text-align: left;
     font-size: 40px;
@@ -75,6 +74,8 @@
 }
 
 .collapsible .content-parent {
+    width: 70%;
+    margin: auto;
     height: 0px;
     overflow: hidden;
     transition: height ease 0.3s;
