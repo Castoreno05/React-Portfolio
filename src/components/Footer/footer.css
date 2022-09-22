@@ -1,12 +1,17 @@
 .footer {
+    color: #F5F9E9;
     display: flex;
     justify-content: center;
     height: 600px;
     background-color: #080708;
     font-family: "Antonio", sans-serif;
-    color: #F5F9E9;
 }
-
+.reset {
+    color: inherit;
+}
+.footer a:hover{ 
+    color: #AE8E1C !important;
+}
 .footerContainer {
     display: flex;
     justify-content: space-evenly;
@@ -27,16 +32,10 @@
 }
 
 .footerNav a {
-    color: #F5F9E9;
     text-decoration: none;
 }
-
-.footerNav p:hover {
-    color: #0d6efd;
-}
-
 .socialLinks {
+    cursor: pointer;
     display: flex;
     justify-content: center;
-    color: #F5F9E9;
 }

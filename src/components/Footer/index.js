@@ -11,7 +11,7 @@ import jsPDF from "jspdf";
 import resume from "../../Images/Resume.PNG";
 
 export default function Footer() {
-  
+
   const pdfGenerate = () => {
     var doc = new jsPDF("landscape", "px", "a4", "false");
     doc.addImage(resume, "PNG", 65, 20, 500, 400);
@@ -23,13 +23,13 @@ export default function Footer() {
     <div className='footer' id='foot'>
       <div className='footerContainer'>
         <h1 className='ghPages'>Github Pages</h1>
-        <Navbar variant="none" style={{justifyContent:"center"}}>
+        <Navbar variant="none" style={{ justifyContent: "center" }}>
           <Nav className='footerNav'>
             <Link to="header" spy={true} smooth={true} duration={500}>
               <p>Home</p></Link>
             <Link to="about" spy={true} smooth={true} duration={500}>
               <p>About</p></Link>
-            <Link to="skills" spy={true} smooth={true} duration={500}>
+            <Link className='reset' to="skills" spy={true} smooth={true} duration={500}>
               <p>Skills</p></Link>
             <Link to="projects" spy={true} smooth={true} duration={500}>
               <p>Projects</p></Link>

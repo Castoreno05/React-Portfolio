@@ -6,12 +6,7 @@
   background-size: cover;
 }
 .header a {
-  color: inherit;
   cursor: pointer;
-}
-
-#resumeLink:hover {
-  color: #0a58ca;
 }
 
 nav .navBtns {
@@ -26,17 +21,17 @@ nav .navBtns {
   height: 50px;
 }
 .navBtns:hover {
-  background-color: yellowgreen !important;
+  background-color: #AE8E1C !important;
 }
 .intro {
   background: rgba(0, 0, 0, 0);
   display: inline-block;
   position: relative;
   overflow-x: hidden;
-  top: 20%;
-  left: 7.5%;
-  width: 85%;
-  height: 550px;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 475px;
   font-family: "Antonio", sans-serif;
   font-weight: 600;
 }
@@ -44,20 +39,18 @@ img {
   margin-right: 25px;
 }
 .name {
+  padding: 20px;
   color: #F5F9E9;
   font-weight: 400;
   text-align: center;
   font-size: 100px;
   position: relative;
-  top: 5%;
+  top: 7%;
 }
 .paragraphDiv { 
   display: flex;
-  height: 310px;
-  width: 70%;
+  width: 65%;
   margin: auto;
-  position: relative;
-  top: 10%;
   padding: 15px 20px;
 }
 .paragraphDiv p {
@@ -65,10 +58,10 @@ img {
   align-items: center;
 }
 .intro p {
+  padding: 15px;
   line-height: 2;
   text-align: center;
   font-size: 22px;
-  flex-wrap: wrap;
   color: #F5F9E9;
   
 }
@@ -79,6 +72,13 @@ img {
   width: 65px;
   height: 65px;
   padding: 10px 10px;
+  color: #F5F9E9;
+}
+#githubLink:hover,
+#resumeLink:hover,
+#linkedinLink:hover,
+.arrow:hover {
+  color: #AE8E1C;
 }
 
 #user, #home, #code, #mail {
@@ -97,13 +97,20 @@ img {
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: 16%;
-}
-.arrowDown {
-  color: #bcb8b1;
+  top: 18%;
 }
 .arrow {
+  color: #F5F9E9;
   height: 65px;
   width: 65px;
   padding: 10px 10px;
+}
+
+@media screen and (max-width: 1000px){
+  .name {
+    font-size: 75px;
+  }
+  .intro p {
+    font-size: 20px;
+  }
 }
