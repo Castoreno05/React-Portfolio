@@ -1,12 +1,9 @@
 #about {
-    height: 500px;
     font-family: 'Antonio', sans-serif;
     background-color: #2B2B2B;
 }
 .aboutSection {
-    overflow-x: hidden;
     top: 5%;
-    height: 90%;
     display: flex;
     justify-content: center;
 }
@@ -19,22 +16,18 @@
     top: 18%;
 }
 .aboutDiv {
+    padding: 15px;
     color: #F5F9E9;
-    width: 60%;
 }
 .aboutDiv p {
     padding: 10px 10px;
-    position: relative;
-    top: 25%;
     font-size: 20px;
     line-height: 50px;
 }
 .aboutDiv h2 {
+    padding: 10px;
     font-size: 32px;
-    position: relative;
-    top: 25%;
     left: 10px;
-    width: 138px;
 }
 @media screen and (max-width: 399px){
     .aboutSection {
