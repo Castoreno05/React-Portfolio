@@ -1,5 +1,7 @@
 import React from "react";
 import "./skills.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 
 export default function Skills() {
   return (
@@ -10,7 +12,7 @@ export default function Skills() {
           <h2>University of Texas - Austin, Texas</h2>
           <p className="info"><em>Full-stack web development</em> <span>•</span> 2022</p>
           <div className="skillColumn">
-           HTML, CSS, Javascript, MySQL, MongoDB, Express, React.js
+            HTML, CSS, Javascript, MySQL, MongoDB, Express, React.js
           </div>
           <h2>San Jacinto College - Pasadena, Texas</h2>
           <p className="info"><em>Process Technology</em> <span>•</span> 2016</p>
@@ -48,32 +50,39 @@ export default function Skills() {
       </div>
       <div className="strengths">
         <h3 className="skillTitle">Skills</h3>
-        <div className="strength-columns">
-          <div className="skillColumn">
-            Ei omittam disputationi concludaturque per, cum ex labores appareat.
-            Eam maiestatis dissentiunt ut. At mel altera aperiri mandamus. Eam
-            offendit scripserit te.Ei omittam disputationi concludaturque per,
-            cum ex labores appareat. Eam maiestatis dissentiunt ut. At mel
-            altera aperiri mandamus. Eam offendit scripserit Ei omittam
-            disputationi concludaturque per, cum ex labores appareat.
-          </div>
-          <p>HTML</p>
-          <div className="strength-container">
-            <div className="hyper"></div>
-          </div>
-          <p>CSS</p>
-          <div className="strength-container">
-            <div className="css"></div>
-          </div>
-          <p>Javascript</p>
-          <div className="strength-container">
-            <div className="java"></div>
-          </div>
-          <p>MySQL</p>
-          <div className="strength-container">
-            <div className="mySQL"></div>
-          </div>
-        </div>
+        <Container className="groupContainer">
+          <Row>
+            Skill 1
+          </Row>
+          <Row>
+            Skill 2
+          </Row>
+          <Row>
+            Skill 3
+          </Row>
+        </Container>
+        <Container className="groupContainer">
+          <Row>
+            Skill 1
+          </Row>
+          <Row>
+            Skill 2
+          </Row>
+          <Row>
+            Skill 3
+          </Row>
+        </Container>
+        <Container className="groupContainer">
+          <Row>
+            Skill 1
+          </Row>
+          <Row>
+            Skill 2
+          </Row>
+          <Row>
+            Skill 3
+          </Row>
+        </Container>
       </div>
     </div>
   );
