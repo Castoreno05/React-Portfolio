@@ -20,6 +20,8 @@
   margin: 0;
 }
 .skillColumn {
+  font-size: 18px;
+  font-weight: 400;
   line-height: 40px;
   padding: 15px;
 }
@@ -48,66 +50,30 @@
   padding: 15px;
   margin: 0;
 }
-
 .groupContainer {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin:auto;
 }
-
+.groupContainer span {
+  font-style: italic;
+  font-size: medium;
+}
+.row p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.skillIcon {
+  position: relative;
+  top: 2px;
+  left: 10%;
+}
 .strengths {
   display: flex;
   width: 70vw;
   margin: 3em auto;
   padding: 2em;
-}
-.strength-columns {
-  width: 70%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-}
-.strength-columns h2 {
-  padding: 15px;
-  margin: 0;
-}
-.strength-columns p {
-  width: 80px;
-  text-align: left;
-  padding: 15px;
-}
-.strength-container {
-  position: relative;
-  left: 2%;
-  width: 95%;
-  background-color: #787878;
-}
-.mySQL {
-  text-align: right;
-  padding: 15px;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  width: 87%;
-  background-color: black;
-}
-.hyper, .css, .java {
-  text-align: right;
-  padding: 15px;
-  padding-top: 18px;
-  padding-bottom: 18px;
-}
-.hyper {
-  width: 86%;
-  background-color: black;
-}
-.css {
-  width: 82%;
-  background-color: black;
-}
-.java {
-  width: 79%;
-  background-color: black;
 }
 
 
