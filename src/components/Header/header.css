@@ -48,6 +48,7 @@ img {
   top: 7%;
 }
 .paragraphDiv { 
+  position: relative;
   display: flex;
   width: 65%;
   margin: auto;
@@ -112,5 +113,20 @@ img {
   }
   .intro p {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .arrowDown {
+    top: 30%;
+  }
+  .header .socialLinks{
+    top: 20%;
+  }
+  .intro {
+    top: 20%;
+  }
+  .paragraphDiv {
+    top: 7%;
   }
 }
