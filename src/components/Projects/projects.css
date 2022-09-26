@@ -28,6 +28,9 @@
 .projectContainer p {
     padding: 10px 10px;
 }
+.projectRow p{
+    line-height: 1.75;
+}
 .imageOne{
     height: 500px;
     width: auto;

@@ -20,8 +20,8 @@ import "./header.css";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const pdfGenerate = () => {
-    var doc = new jsPDF("portrait", "px", "a4", "false");
-    doc.addImage(resume, "PNG", 85, 20, 300, 450);
+    var doc = new jsPDF();
+    doc.addImage(resume, "PNG", 0, 0, 210, 300);
     doc.save("MatthewCastorenoResume.pdf");
     console.log("saved");
   };
