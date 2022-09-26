@@ -26,21 +26,17 @@ export default function Skills() {
             <em>Full-stack web development</em> <span>•</span> 2022
           </p>
           <div className="skillColumn">
-            Created and met deadlines on assignments based off of challenge
-            requirements. Collaborated with cohorts to produce high-quality
+            Worked on course material in a timely manner and created applications that were assigned based on . Collaborated with cohorts to produce high-quality
             applications using HTML, CSS, Javascript, MySQL, MongoDB,
             Express.js, React.js, Handlebars, Bootstrap and Materialize.
           </div>
           <h2>San Jacinto College - Pasadena, Texas</h2>
           <p className="info">
-            <em>Process Technology</em> <span>•</span> 2016
+            <em>A.A.S. Process Technology</em> <span>•</span> 2016
           </p>
           <div className="skillColumn">
-            Ei omittam disputationi concludaturque per, cum ex labores appareat.
-            Eam maiestatis dissentiunt ut. At mel altera aperiri mandamus. Eam
-            offendit scripserit te.Ei omittam disputationi concludaturque per,
-            cum ex labores appareat. Eam maiestatis dissentiunt ut. At mel
-            altera aperiri mandamus. Eam offendit scripserit te.
+            Operated the Honeywell Distributed Control System (DCS) to start-up and shut-down San Jacinto Central Glycol Unit.
+
           </div>
         </div>
       </div>
@@ -52,13 +48,13 @@ export default function Skills() {
             <em>Process Operator</em> <span>•</span> 2022
           </p>
           <div className="skillColumn">
-            Facillitated unit safety walk-thrus that addressed maintenence
-            issues needed on equipement. Recorded and accounted for data
-            relating to product recipe. Met deadlines to produce quility
-            finished batches, while following best safety practices/procedures.
+            Facillitated unit safety walk-throughs to inspect unit equipment
+            and verified that it complies with operation standards. Recorded and accounted for data
+            relating to production recipe. Met deadlines to produce quality
+            finished batches, while following safety practices and procedures.
             Off-loaded acid bulk trucks into storgage vessel's. Presented a
-            project to management that would increase productivity by 15%.
-            Assigned project manager to implement a need feed line 
+            project to management that would increase productivity by 20%.
+            Assigned project manager to implement new feed line into blender tank to increase the rate of flow.
           </div>
           <h2>The Lubrizol Corporation</h2>
           <p className="info">
@@ -67,12 +63,12 @@ export default function Skills() {
           </p>
           <div className="skillColumn">
             Managed unit operations by utilizing a distributed control system to
-            effectively and efficiently transfer finished product into storage
+            effectively and efficiently transfer finished products into storage
             tanks, rail cars and bulk trucks. Led safety meetings that addressed
             abnormal field conditions, production flow and maintenence updates.
             Documented and entered required data for board and field operations.
             Field experience includes: troubleshooting, performing preventative
-            maintenence on unit equipment, combining raw materials and additives
+            maintenence on unit equipment and combined raw materials with additives
             into finished products using unit systems.
           </div>
         </div>

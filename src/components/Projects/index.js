@@ -23,14 +23,7 @@ export default function Projects() {
           <Collapsible label="Weather App">
             <div className="imageTwo"></div>
             <p>
-              Lorem ipsum dolor sit amet, putent nostrum disputando cu pro. Ius
-              modo maiorum cu, facilis ocurreret eu eos. Ei per vero error. Sed
-              iudico causae eu, usu ea noster hendrerit.Lorem ipsum dolor sit
-              amet, putent nostrum disputando cu pro. Ius modo maiorum cu,
-              facilis ocurreret eu eos. Ei per vero error. Sed iudico causae eu,
-              usu ea noster hendrerit.Lorem ipsum dolor sit amet, putent nostrum
-              disputando cu pro. Ius modo maiorum cu, facilis ocurreret eu eos.
-              Ei per vero error. Sed iudico causae eu, usu ea noster hendrerit.
+              Created an application 
             </p>
           </Collapsible>
         </Row>

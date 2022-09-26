@@ -14,15 +14,15 @@ import { BsArrowDownCircleFill } from "react-icons/bs";
 import { SiMinutemailer } from "react-icons/si";
 import { FaLaptopCode } from "react-icons/fa";
 import jsPDF from "jspdf";
-import resume from "../../Images/Resume.PNG";
+import resume from "../../Images/Resume.png";
 import "./header.css";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const pdfGenerate = () => {
-    var doc = new jsPDF("landscape", "px", "a4", "false");
-    doc.addImage(resume, "PNG", 65, 20, 500, 400);
-    doc.save("resume.pdf");
+    var doc = new jsPDF("portrait", "px", "a4", "false");
+    doc.addImage(resume, "PNG", 85, 20, 300, 450);
+    doc.save("MatthewCastorenoResume.pdf");
     console.log("saved");
   };
   return (

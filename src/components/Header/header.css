@@ -49,6 +49,7 @@ img {
 }
 .paragraphDiv { 
   position: relative;
+  bottom: 12px;
   display: flex;
   width: 65%;
   margin: auto;
@@ -118,7 +119,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .arrowDown {
-    top: 30%;
+    top: 25%;
   }
   .header .socialLinks{
     top: 20%;

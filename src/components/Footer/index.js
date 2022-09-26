@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa"
 import { Link } from "react-scroll";
 import jsPDF from "jspdf";
-import resume from "../../Images/Resume.PNG";
+import resume from "../../Images/Resume.png";
 
 export default function Footer() {
 
