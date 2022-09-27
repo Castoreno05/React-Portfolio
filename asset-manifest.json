@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.c131eb90.css",
-    "main.js": "/React-Portfolio/static/js/main.1e38bb5e.js",
+    "main.css": "/React-Portfolio/static/css/main.59513c9d.css",
+    "main.js": "/React-Portfolio/static/js/main.0894adc7.js",
     "static/js/498.adc1297d.chunk.js": "/React-Portfolio/static/js/498.adc1297d.chunk.js",
     "static/js/703.75112834.chunk.js": "/React-Portfolio/static/js/703.75112834.chunk.js",
     "static/js/27.92cc47d7.chunk.js": "/React-Portfolio/static/js/27.92cc47d7.chunk.js",
@@ -12,14 +12,14 @@
     "static/media/Bootcamp.PNG": "/React-Portfolio/static/media/Bootcamp.9c4b7bfad4fa9978126b.PNG",
     "static/media/teamProfileGenerator.PNG": "/React-Portfolio/static/media/teamProfileGenerator.1c0370260599a977e34b.PNG",
     "index.html": "/React-Portfolio/index.html",
-    "main.c131eb90.css.map": "/React-Portfolio/static/css/main.c131eb90.css.map",
-    "main.1e38bb5e.js.map": "/React-Portfolio/static/js/main.1e38bb5e.js.map",
+    "main.59513c9d.css.map": "/React-Portfolio/static/css/main.59513c9d.css.map",
+    "main.0894adc7.js.map": "/React-Portfolio/static/js/main.0894adc7.js.map",
     "498.adc1297d.chunk.js.map": "/React-Portfolio/static/js/498.adc1297d.chunk.js.map",
     "703.75112834.chunk.js.map": "/React-Portfolio/static/js/703.75112834.chunk.js.map",
     "27.92cc47d7.chunk.js.map": "/React-Portfolio/static/js/27.92cc47d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c131eb90.css",
-    "static/js/main.1e38bb5e.js"
+    "static/css/main.59513c9d.css",
+    "static/js/main.0894adc7.js"
   ]
 }
