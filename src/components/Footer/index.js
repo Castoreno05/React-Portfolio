@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState} from 'react';
+import Modal from "../Modal";
 import "./footer.css";
 import { Nav, Navbar } from "react-bootstrap";
 import {
@@ -11,6 +12,8 @@ import jsPDF from "jspdf";
 import resume from "../../Images/Resume.png";
 
 export default function Footer() {
+
+  const [isOpen, setIsOpen] = useState(false);
 
   const pdfGenerate = () => {
     var doc = new jsPDF("landscape", "px", "a4", "false");
@@ -33,8 +36,8 @@ export default function Footer() {
               <p>Skills</p></Link>
             <Link to="projects" spy={true} smooth={true} duration={500}>
               <p>Projects</p></Link>
-            <Link to="message" spy={true} smooth={true} duration={500}>
-              <p>Contact</p></Link>
+            <Link to="message" spy={true} smooth={true} duration={500} onClick={() => setIsOpen(true)}>
+              <p>Contact</p></Link><Modal open={isOpen} onClose={() => setIsOpen(false)} />
           </Nav>
         </Navbar>
         <div className="socialLinks">

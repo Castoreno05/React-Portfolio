@@ -31,9 +31,7 @@ nav .navBtns {
   top: 10%;
   left: 10%;
   width: 80%;
-  height: 475px;
-  font-family: "Antonio", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
 }
 img {
   margin-right: 25px;
@@ -108,12 +106,18 @@ img {
   padding: 10px 10px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1199px){
   .name {
     font-size: 75px;
   }
   .intro p {
     font-size: 20px;
+  }
+  .arrowDown {
+    top: 15%;
+  }
+  .paragraphDiv {
+    top: 10px;
   }
 }
 
@@ -125,7 +129,10 @@ img {
     top: 20%;
   }
   .intro {
-    top: 20%;
+    top: 15%;
+  }
+  .name {
+    bottom: 2%;
   }
   .paragraphDiv {
     top: 7%;
