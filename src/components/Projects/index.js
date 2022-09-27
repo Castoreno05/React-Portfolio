@@ -17,8 +17,7 @@ export default function Projects() {
               sign-up/log-in and post blogs for other users to read and comment
               on. Create posts in the dashboard and save them to your profile.
               If edits of the post need to be made, the options to delete or
-              update are given. When a user has posted to the homepage, any user
-              that is <strong>currently</strong> signed in will have the
+              update are given. When a user submits a post to the homepage, any user <strong>currently</strong> signed in will have the
               oppoptunity to leave comments.
             </p>
           </Collapsible>
@@ -27,7 +26,7 @@ export default function Projects() {
           <Collapsible label="Weather App">
             <div className="imageTwo"></div>
             <p>
-              Created a Weather App with the help of a third party API service.
+              Created a Weather Application with the help of a third party API service.
               Enter a city name in the search bar and the application will make
               an API call to retrieve then append live data onto the homepage.
               The data consists of: tempurature, wind speed, humidity, and UV

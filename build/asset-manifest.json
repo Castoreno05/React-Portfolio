@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.c131eb90.css",
-    "main.js": "/React-Portfolio/static/js/main.ac2d07e1.js",
+    "main.js": "/React-Portfolio/static/js/main.0793ee19.js",
     "static/js/498.adc1297d.chunk.js": "/React-Portfolio/static/js/498.adc1297d.chunk.js",
     "static/js/703.75112834.chunk.js": "/React-Portfolio/static/js/703.75112834.chunk.js",
     "static/js/27.92cc47d7.chunk.js": "/React-Portfolio/static/js/27.92cc47d7.chunk.js",
-    "static/media/Resume.png": "/React-Portfolio/static/media/Resume.78ffa0515cc709deb070.png",
+    "static/media/Resume.png": "/React-Portfolio/static/media/Resume.ae232609562c227ce0dd.png",
     "static/media/newBG.jpg": "/React-Portfolio/static/media/newBG.044a5fdaec1a1ff1b261.jpg",
     "static/media/Louvre.jpg": "/React-Portfolio/static/media/Louvre.e7ca9df0f92ec1b4e8f8.jpg",
     "static/media/weatherApp.PNG": "/React-Portfolio/static/media/weatherApp.823de26ccd46247042d3.PNG",
@@ -13,13 +13,13 @@
     "static/media/teamProfileGenerator.PNG": "/React-Portfolio/static/media/teamProfileGenerator.1c0370260599a977e34b.PNG",
     "index.html": "/React-Portfolio/index.html",
     "main.c131eb90.css.map": "/React-Portfolio/static/css/main.c131eb90.css.map",
-    "main.ac2d07e1.js.map": "/React-Portfolio/static/js/main.ac2d07e1.js.map",
+    "main.0793ee19.js.map": "/React-Portfolio/static/js/main.0793ee19.js.map",
     "498.adc1297d.chunk.js.map": "/React-Portfolio/static/js/498.adc1297d.chunk.js.map",
     "703.75112834.chunk.js.map": "/React-Portfolio/static/js/703.75112834.chunk.js.map",
     "27.92cc47d7.chunk.js.map": "/React-Portfolio/static/js/27.92cc47d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c131eb90.css",
-    "static/js/main.ac2d07e1.js"
+    "static/js/main.0793ee19.js"
   ]
 }
