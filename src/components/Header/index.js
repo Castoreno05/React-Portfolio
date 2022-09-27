@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../Modal";
+import "./header.css";
 import { Nav, Navbar, Button } from "react-bootstrap";
 import { Link } from "react-scroll";
 import {
@@ -13,18 +14,9 @@ import { GiFootprint } from "react-icons/gi";
 import { BsArrowDownCircleFill } from "react-icons/bs";
 import { SiMinutemailer } from "react-icons/si";
 import { FaLaptopCode } from "react-icons/fa";
-import jsPDF from "jspdf";
-import resume from "../../Images/Resume.png";
-import "./header.css";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const pdfGenerate = () => {
-    var doc = new jsPDF();
-    doc.addImage(resume, "PNG", 0, 0, 210, 300);
-    doc.save("MatthewCastorenoResume.pdf");
-    console.log("saved");
-  };
   return (
     <div className="header" id="header">
       <Navbar
@@ -116,7 +108,10 @@ export default function Header() {
         >
           <FaLinkedin id="linkedinLink" />
         </a>
-        <a onClick={pdfGenerate}>
+        <a
+          href="Matthew Castoreno Resume.pdf"
+          download="Matthew Castoreno Resume.pdf"
+        >
           <FaFileCsv id="resumeLink" />
         </a>
       </div>

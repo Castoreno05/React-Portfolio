@@ -27,7 +27,7 @@ nav .navBtns {
   background: rgba(0, 0, 0, 0);
   display: inline-block;
   position: relative;
-  overflow-x: hidden;
+  overflow-y: hidden;
   top: 10%;
   left: 10%;
   width: 80%;
@@ -90,6 +90,7 @@ img {
 .header .socialLinks {
   position: relative;
   top: 10%;
+  margin: 0 auto;
 }
 
 .arrowDown {
@@ -123,7 +124,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .arrowDown {
-    top: 25%;
+    top: 28%;
   }
   .header .socialLinks{
     top: 20%;
