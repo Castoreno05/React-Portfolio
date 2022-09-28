@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.53ed5d1f.css",
-    "main.js": "/React-Portfolio/static/js/main.55dcbc24.js",
+    "main.js": "/React-Portfolio/static/js/main.fcd6ddc4.js",
     "static/media/newBG.jpg": "/React-Portfolio/static/media/newBG.044a5fdaec1a1ff1b261.jpg",
     "static/media/Louvre.jpg": "/React-Portfolio/static/media/Louvre.e7ca9df0f92ec1b4e8f8.jpg",
     "static/media/weatherApp.PNG": "/React-Portfolio/static/media/weatherApp.823de26ccd46247042d3.PNG",
@@ -9,10 +9,10 @@
     "static/media/teamProfileGenerator.PNG": "/React-Portfolio/static/media/teamProfileGenerator.1c0370260599a977e34b.PNG",
     "index.html": "/React-Portfolio/index.html",
     "main.53ed5d1f.css.map": "/React-Portfolio/static/css/main.53ed5d1f.css.map",
-    "main.55dcbc24.js.map": "/React-Portfolio/static/js/main.55dcbc24.js.map"
+    "main.fcd6ddc4.js.map": "/React-Portfolio/static/js/main.fcd6ddc4.js.map"
   },
   "entrypoints": [
     "static/css/main.53ed5d1f.css",
-    "static/js/main.55dcbc24.js"
+    "static/js/main.fcd6ddc4.js"
   ]
 }

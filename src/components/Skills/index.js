@@ -43,7 +43,7 @@ export default function Skills() {
       <div className="work">
         <h3 className="skillTitle">Work</h3>
         <div className="work-columns">
-          <h2>Eurecat US Inc</h2>
+          {/* <h2>Eurecat US Inc</h2>
           <p className="info">
             <em>Process Operator</em> <span>•</span> 2022
           </p>
@@ -55,7 +55,7 @@ export default function Skills() {
             Off-loaded acid bulk trucks into storgage vessel's. Presented a
             project to management that would increase productivity by 20%.
             Assigned project manager to implement new feed line into blender tank to increase the rate of flow.
-          </div>
+          </div> */}
           <h2>The Lubrizol Corporation</h2>
           <p className="info">
             <em>Blend Technician / </em>
