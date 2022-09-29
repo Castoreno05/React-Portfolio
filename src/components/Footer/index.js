@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Modal from "../Modal";
 import "./footer.css";
 import { Nav, Navbar } from "react-bootstrap";
-import { FaGithub, FaLinkedin, FaFileCsv } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { ImFilePdf } from "react-icons/im";
 import { Link } from "react-scroll";
 
 export default function Footer() {
@@ -57,7 +58,7 @@ export default function Footer() {
             href="Matthew Castoreno Resume.pdf"
             download="Matthew Castoreno Resume.pdf"
           >
-            <FaFileCsv id="resumeLink" />
+            <ImFilePdf id="resumeLink" />
           </a>
         </div>
         <div classname="rights">

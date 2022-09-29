@@ -8,12 +8,12 @@ import {
   FaUserAlt,
   FaGithub,
   FaLinkedin,
-  FaFileCsv,
 } from "react-icons/fa";
 import { GiFootprint } from "react-icons/gi";
 import { BsArrowDownCircleFill } from "react-icons/bs";
 import { SiMinutemailer } from "react-icons/si";
 import { FaLaptopCode } from "react-icons/fa";
+import { ImFilePdf } from "react-icons/im";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -112,7 +112,7 @@ export default function Header() {
           href="Matthew Castoreno Resume.pdf"
           download="Matthew Castoreno Resume.pdf"
         >
-          <FaFileCsv id="resumeLink" />
+          <ImFilePdf id="resumeLink" />
         </a>
       </div>
       <div className="arrowDown">
