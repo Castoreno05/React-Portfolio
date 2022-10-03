@@ -69,15 +69,90 @@
   top: 2px;
   left: 10%;
 }
+.loto {
+  position: relative;
+  left: 3%;
+}
 .strengths {
   display: flex;
   width: 70vw;
   margin: 3em auto;
   padding: 2em;
 }
+.html {
+  color: #e34c26;
+  height: 25px;
+  width: 25px;
+}
+.javascript {
+  color: #F0DB4F;
+  background-color: #323330;
+  height: 25px;
+  width: 25px;
+}
+.jquery {
+  color: #0769AD;
+  height: 25px;
+  width: 25px;
+}
+.react {
+  height: 25px;
+  width: 25px;
+  color: #61DBFB;
+}
+.node {
+  color: #68A063;
+  height: 25px;
+  width: 25px;
+}
+.mysql {
+  background-color: whitesmoke;
+  color: #00758F;
+  height: 25px;
+  width: 25px;
+}
+.mongo {
+  border-radius: 25px;
+  background-color: whitesmoke;
+  color: #4db33d;
+  height: 25px;
+  width: 25px;
+}
+.pipes {
+  color: #707070;
+  height: 25px;
+  width: 25px;
+}
+.tag {
+  color: #f32013;
+  height: 25px;
+  width: 25px;
+}
+#rogue {
+  color: #505050;
+  height: 25px;
+  width: 25px;
+}
+.sap {
+  color: #008ad7;
+  height: 25px;
+  width: 25px;
+}
 
 
-
+@media screen and (max-width: 985px){
+  .strengths {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .groupContainer {
+    margin-top: 20px;
+  }
+  .skillTitle {
+    text-align: center;
+  }
+}
 
 @media screen and (max-width: 399px) {
   .education, .work, .strengths {

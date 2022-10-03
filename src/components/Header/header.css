@@ -47,9 +47,9 @@ img {
 }
 .paragraphDiv { 
   position: relative;
-  bottom: 12px;
+  top: 2%;
   display: flex;
-  width: 65%;
+  width: auto;
   margin: auto;
   padding: 15px 20px;
 }
@@ -63,7 +63,6 @@ img {
   text-align: center;
   font-size: 22px;
   color: #F5F9E9;
-  
 }
 
 #githubLink,
@@ -106,28 +105,12 @@ img {
   width: 65px;
   padding: 10px 10px;
 }
-
-@media screen and (max-width: 1199px){
-  .name {
-    font-size: 75px;
-  }
-  .intro p {
-    font-size: 20px;
-  }
+@media screen and (min-width: 1300px) {
   .arrowDown {
-    top: 15%;
-  }
-  .paragraphDiv {
-    top: 10px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .arrowDown {
-    top: 28%;
+    top: 35%;
   }
   .header .socialLinks{
-    top: 20%;
+    top: 25%;
   }
   .intro {
     top: 15%;
@@ -136,6 +119,55 @@ img {
     bottom: 2%;
   }
   .paragraphDiv {
-    top: 7%;
+    top: 15%;
   }
+}
+@media screen and (max-width: 1150px){
+  .intro {
+    top: 15%;
+  }
+  .name {
+    font-size: 75px;
+  }
+  .intro p {
+    font-size: 20px;
+  }
+  .header .socialLinks {
+    top: 20%;
+  }
+  .arrowDown {
+    top: 28%;
+  }
+  .paragraphDiv {
+    top: 30px;
+  }
+}
+@media screen and (max-width: 865px) {
+  .name {
+    font-size: 65px;
+  }
+  .intro p {
+    line-height: 1.75;
+  }
+  .arrowDown {
+    top: 25%;
+  }
+}
+@media screen and (max-width:720px) {
+  .name {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width:592px) {
+  .name {
+    font-size: 35px;
+  }
+  .intro {
+    width: auto;
+    left: 0;
+  }
+  .intro p {
+    font-size: 18px;
+  }
+  
 }

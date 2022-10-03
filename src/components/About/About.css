@@ -6,6 +6,10 @@
     display: flex;
     justify-content: center;
 }
+.picDiv img {
+    display: flex;
+    margin: auto;
+}
 #myPic {
     padding: 10px 10px;
     height: 250px;
@@ -43,6 +47,22 @@
         position: relative;
         left: 0px;
         width: auto;
+        text-align: center;
+    }
+    .aboutDiv p {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 900px) {
+    .picDiv {
+        margin: 10px 10px;
+        display: flex;
+    }
+    .aboutSection {
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutSection h2 {
         text-align: center;
     }
     .aboutDiv p {

@@ -89,12 +89,10 @@ export default function Header() {
         <h1 className="name">Matthew Castoreno</h1>
         <div className="paragraphDiv">
           <p>
-            Dedicated Full-stack web developer with professional experience in
+            Dedicated full-stack web developer with professional experience in
             Process Technology. Industrious Operator specialized in managing
-            unit/software processing systems. Currently in pursuit of a
-            challenging position that will increase my knowledge in this field.
-            I enjoy utilizing my skills and experience to solve time sensitive
-            and complex problems.
+            unit and software processing systems. In search of a challenging position that will enhance my expertise in web development.
+            My skills combined with operational experience are well-suited to solve time-sensitive and complex problems.
           </p>
         </div>
       </section>

@@ -14,6 +14,7 @@ import { DiJavascript1 } from "react-icons/di";
 import { GrMysql, GrCloudSoftware } from "react-icons/gr";
 import { GiPipes } from "react-icons/gi";
 import { AiFillTag, AiFillControl } from "react-icons/ai";
+import { BsFillCloudArrowDownFill } from "react-icons/bs";
 
 export default function Skills() {
   return (
@@ -26,17 +27,19 @@ export default function Skills() {
             <em>Full-stack web development</em> <span>•</span> 2022
           </p>
           <div className="skillColumn">
-            Worked on course material in a timely manner and created applications that were assigned based on . Collaborated with cohorts to produce high-quality
-            applications using HTML, CSS, Javascript, MySQL, MongoDB,
-            Express.js, React.js, Handlebars, Bootstrap and Materialize.
+            Worked on course material in a timely manner and created
+            applications that were assigned based on course requirements.
+            Collaborated with cohorts to produce high-quality applications using
+            HTML, CSS, Javascript, MySQL, MongoDB, Express.js, React.js,
+            Handlebars, Bootstrap and Materialize.
           </div>
           <h2>San Jacinto College - Pasadena, Texas</h2>
           <p className="info">
             <em>A.A.S. Process Technology</em> <span>•</span> 2016
           </p>
           <div className="skillColumn">
-            Operated the Honeywell Distributed Control System (DCS) to start-up and shut-down San Jacinto Central Glycol Unit.
-
+            Operated the Honeywell Distributed Control System (DCS) to start-up
+            and shut-down San Jacinto Central Glycol Unit.
           </div>
         </div>
       </div>
@@ -68,8 +71,10 @@ export default function Skills() {
             abnormal field conditions, production flow and maintenence updates.
             Documented and entered required data for board and field operations.
             Field experience includes: troubleshooting, performing preventative
-            maintenence on unit equipment and combined raw materials with additives
-            into finished products using unit systems.
+            maintenence on unit equipment and combined raw materials with
+            additives into finished products using unit systems. Coordinated
+            unit project involving Engineering, Maintenance and Operations to
+            supplement a 20% increase in production flow.
           </div>
         </div>
       </div>
@@ -80,7 +85,7 @@ export default function Skills() {
             <p>
               HTML5
               <span className="skillIcon">
-                <SiHtml5 />
+                <SiHtml5 className="html"/>
               </span>
             </p>
           </Row>
@@ -90,7 +95,7 @@ export default function Skills() {
             <p>
               CSS
               <span className="skillIcon">
-                <SiCss3 />
+                <SiCss3 style={{color:"#264de4", height:"25px", width:"25px"}} />
               </span>
             </p>
           </Row>
@@ -98,9 +103,9 @@ export default function Skills() {
           <br></br>
           <Row>
             <p>
-              Javascript
+              JavaScript
               <span className="skillIcon">
-                <SiJavascript />
+                <SiJavascript className="javascript"/>
               </span>
             </p>
           </Row>
@@ -110,7 +115,7 @@ export default function Skills() {
             <p>
               jQuery
               <span className="skillIcon">
-                <SiJquery />
+                <SiJquery className="jquery"/>
               </span>
             </p>
           </Row>
@@ -121,7 +126,7 @@ export default function Skills() {
             <p>
               React
               <span className="skillIcon">
-                <SiReact />
+                <SiReact className="react" />
               </span>
             </p>
           </Row>
@@ -129,9 +134,9 @@ export default function Skills() {
           <br></br>
           <Row>
             <p>
-              Express.js
+              Node.js
               <span className="skillIcon">
-                <DiJavascript1 />
+                <DiJavascript1 className="node"/>
               </span>
             </p>
           </Row>
@@ -141,7 +146,7 @@ export default function Skills() {
             <p>
               MySQL
               <span className="skillIcon">
-                <GrMysql />
+                <GrMysql className="mysql"/>
               </span>
             </p>
           </Row>
@@ -151,7 +156,7 @@ export default function Skills() {
             <p>
               MongoDB
               <span className="skillIcon">
-                <SiMongodb />
+                <SiMongodb className="mongo"/>
               </span>
             </p>
           </Row>
@@ -162,7 +167,7 @@ export default function Skills() {
             <p>
               P&IDs
               <span className="skillIcon">
-                <GiPipes />
+                <GiPipes className="pipes"/>
               </span>
             </p>
           </Row>
@@ -171,8 +176,8 @@ export default function Skills() {
           <Row>
             <p>
               Lock-out/Tag-out
-              <span className="skillIcon">
-                <AiFillTag />
+              <span className="loto">
+                <AiFillTag className="tag"/>
               </span>
             </p>
           </Row>
@@ -192,7 +197,7 @@ export default function Skills() {
             <p>
               SAP/SAP HANA
               <span className="skillIcon">
-                <GrCloudSoftware />
+                <BsFillCloudArrowDownFill className="sap"/>
               </span>
             </p>
           </Row>
