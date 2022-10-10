@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.f51b7e20.css",
-    "main.js": "/React-Portfolio/static/js/main.d9ba408a.js",
+    "main.css": "/React-Portfolio/static/css/main.3ecf5a49.css",
+    "main.js": "/React-Portfolio/static/js/main.379832d6.js",
+    "static/media/readmeGenerator.gif": "/React-Portfolio/static/media/readmeGenerator.dbe6bd878a9a9ca71811.gif",
+    "static/media/WeatherGif.gif": "/React-Portfolio/static/media/WeatherGif.5b3db64e4ecd167375c9.gif",
+    "static/media/bootcampBlog.gif": "/React-Portfolio/static/media/bootcampBlog.a64a7ec9079986985d86.gif",
+    "static/media/workdayPlanner.gif": "/React-Portfolio/static/media/workdayPlanner.8166efd93aebb491609c.gif",
+    "static/media/codeQuiz.gif": "/React-Portfolio/static/media/codeQuiz.05fafedff1a8a54cd32b.gif",
     "static/media/newBG.jpg": "/React-Portfolio/static/media/newBG.044a5fdaec1a1ff1b261.jpg",
-    "static/media/Louvre.jpg": "/React-Portfolio/static/media/Louvre.e7ca9df0f92ec1b4e8f8.jpg",
-    "static/media/weatherApp.PNG": "/React-Portfolio/static/media/weatherApp.823de26ccd46247042d3.PNG",
-    "static/media/Bootcamp.PNG": "/React-Portfolio/static/media/Bootcamp.9c4b7bfad4fa9978126b.PNG",
-    "static/media/teamProfileGenerator.PNG": "/React-Portfolio/static/media/teamProfileGenerator.1c0370260599a977e34b.PNG",
     "index.html": "/React-Portfolio/index.html",
-    "main.f51b7e20.css.map": "/React-Portfolio/static/css/main.f51b7e20.css.map",
-    "main.d9ba408a.js.map": "/React-Portfolio/static/js/main.d9ba408a.js.map"
+    "main.3ecf5a49.css.map": "/React-Portfolio/static/css/main.3ecf5a49.css.map",
+    "main.379832d6.js.map": "/React-Portfolio/static/js/main.379832d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f51b7e20.css",
-    "static/js/main.d9ba408a.js"
+    "static/css/main.3ecf5a49.css",
+    "static/js/main.379832d6.js"
   ]
 }

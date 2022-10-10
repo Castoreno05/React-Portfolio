@@ -46,7 +46,7 @@ export default function Header() {
             duration={500}
             style={{ width: "auto" }}
           >
-            <Button variant="none" className="navBtns">
+            <Button title="Home" variant="none" className="navBtns">
               <FaHome id="home" />
             </Button>
           </Link>
@@ -54,16 +54,17 @@ export default function Header() {
           <Link
             to="projects"
             spy={true}
-            offset={20}
+            offset={5}
             smooth={true}
             duration={500}
           >
-            <Button variant="none" className="navBtns">
+            <Button title="Projects" variant="none" className="navBtns">
               <FaLaptopCode id="code" />
             </Button>
           </Link>
           <br></br>
           <Button
+            title="Message Me"
             variant="none"
             className="navBtns"
             onClick={() => setIsOpen(true)}
@@ -73,13 +74,13 @@ export default function Header() {
           <Modal open={isOpen} onClose={() => setIsOpen(false)} />
           <br></br>
           <Link to="about" spy={true} smooth={true} duration={500}>
-            <Button variant="none" className="navBtns">
+            <Button title="About Me" variant="none" className="navBtns">
               <FaUserAlt id="user" />
             </Button>
           </Link>
           <br></br>
           <Link to="footer" spy={true} smooth={true} duration={500}>
-            <Button variant="none" className="navBtns">
+            <Button title="Footer" variant="none" className="navBtns">
               <GiFootprint id="foot" />
             </Button>
           </Link>

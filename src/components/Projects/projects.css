@@ -30,32 +30,39 @@
 .projectRow p{
     line-height: 1.75;
 }
-.imageOne{
+.imageOne {
     height: 500px;
     width: auto;
     margin: 10px 10px;
-    background: url(../../Images/Bootcamp.PNG) no-repeat top center;
+    background: url(../../Videos/bootcampBlog.gif) no-repeat top center;
     background-size: cover;
 }
 .imageTwo {
     height: 500px;
     width: auto;
     margin: 10px 10px;
-    background: url(../../Images/weatherApp.PNG) no-repeat top center;
+    background: url(../../Videos/WeatherGif.gif) no-repeat top center;
     background-size: cover;
 }
 .imageThree {
     height: 500px;
     width: auto;
     margin: 10px 10px;
-    background: url(../../Images/teamProfileGenerator.PNG) no-repeat top center;
+    background: url(../../Videos//readmeGenerator.gif) no-repeat top center;
     background-size: cover;
 }
 .imageFour {
     height: 500px;
     width: auto;
     margin: 10px 10px;
-    background: url(../../Images/newBG.jpg) no-repeat top center;
+    background: url(../../Videos/workdayPlanner.gif) no-repeat top center;
+    background-size: cover;
+}
+.imageFive {
+    height: 500px;
+    width: auto;
+    margin: 10px 10px;
+    background: url(../../Videos/codeQuiz.gif) no-repeat top center;
     background-size: cover;
 }
 /* CSS for collapsible  **************************************************************************************************************************************/
