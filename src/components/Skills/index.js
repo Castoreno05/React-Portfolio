@@ -71,10 +71,10 @@ export default function Skills() {
             Managed unit operations by utilizing a distributed control system to
             effectively and efficiently transfer finished products into storage
             tanks, rail cars and bulk trucks. Led safety meetings that addressed
-            abnormal field conditions, production flow and maintenence updates.
+            abnormal field conditions, production flow and maintenance updates.
             Documented and entered required data for board and field operations.
             Field experience includes: troubleshooting, performing preventative
-            maintenence on unit equipment and combined raw materials with
+            maintenance on unit equipment and combined raw materials with
             additives into finished products using unit systems. Coordinated
             unit project involving Engineering, Maintenance and Operations to
             supplement a 20% increase in production flow.
