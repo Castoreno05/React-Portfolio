@@ -30,7 +30,7 @@ export default function Skills() {
             Produced applications that applied front and back end development
             using a variety of languages, frameworks, servers and databases.
             Collaborated with cohorts to produce high-quality applications using
-            HTML, CSS, Javascript, MySQL, MongoDB, Express.js, React.js,
+            HTML, CSS, JavaScript, MySQL, MongoDB, Express.js, React.js,
             Handlebars, Bootstrap and Materialize.
           </div>
           <h2>San Jacinto College - Pasadena, Texas</h2>
@@ -54,13 +54,13 @@ export default function Skills() {
             <em>Process Operator</em> <span>•</span> 2022
           </p>
           <div className="skillColumn">
-            Facillitated unit safety walk-throughs to inspect unit equipment
-            and verified that it complies with operation standards. Recorded and accounted for data
-            relating to production recipe. Met deadlines to produce quality
-            finished batches, while following safety practices and procedures.
-            Off-loaded acid bulk trucks into storgage vessel's. Presented a
-            project to management that would increase productivity by 20%.
-            Assigned project manager to implement new feed line into blender tank to increase the rate of flow.
+            Facillitated unit safety walk-throughs to inspect unit equipment and
+            verified that it complies with operation standards. Recorded and
+            accounted for data relating to production recipe. Met deadlines to
+            produce quality finished batches, while following safety practices
+            and procedures. Off-loaded acid bulk trucks into storgage vessel's.
+            Assigned project manager to implement new feed line into blender
+            tank to increase the rate of flow.
           </div> */}
           <h2>The Lubrizol Corporation</h2>
           <p className="info">
