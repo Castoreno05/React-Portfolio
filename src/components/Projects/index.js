@@ -29,12 +29,12 @@ export default function Projects() {
             <p>
               Created a Weather Application with the help of a third party API
               service. Enter a city name in the search bar and the application
-              will make an API call to retrieve then append live data onto the
-              homepage. The data consists of: tempurature, wind speed, humidity,
-              and UV index for the current and five day forcast. Once a search
-              has been made the application saves the search in local strorage.
-              Doing this allows the user to generate another API call to get
-              live results of the weather.
+              will make an API call to retrieve, then append live data onto the
+              home page. The data consists of: tempurature, wind speed,
+              humidity, and UV index for the current and five day forecast. Once
+              a search has been made the application saves the city in local
+              strorage. Doing this allows the user to generate another API call
+              to get live results of the weather.
             </p>
           </Collapsible>
         </Row>
@@ -57,11 +57,11 @@ export default function Projects() {
             <p>
               Download this application to start tracking and planning your
               workday tasks. When the repository has been cloned, open the
-              application within the browser. This application uses the
-              computers date and time to display to the user the past, present,
-              and future hours in a workday. Inside the time blocks, add a task
-              and select the blue save button. The application will then save
-              the task to local storage for future reference.
+              application within the browser. This application uses local date
+              and time to display to the user the past, present, and future
+              hours in a workday. Inside the time blocks, add a task and select
+              the blue save button. The application will then save the task to
+              local storage for future reference.
             </p>
           </Collapsible>
         </Row>

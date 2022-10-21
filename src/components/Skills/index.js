@@ -27,8 +27,8 @@ export default function Skills() {
             <em>Full-stack web development</em> <span>•</span> 2022
           </p>
           <div className="skillColumn">
-            Worked on course material in a timely manner and created
-            applications that were assigned based on course requirements.
+            Produced applications that applied front and back end development
+            using a variety of languages, frameworks, servers and databases.
             Collaborated with cohorts to produce high-quality applications using
             HTML, CSS, Javascript, MySQL, MongoDB, Express.js, React.js,
             Handlebars, Bootstrap and Materialize.
@@ -38,8 +38,11 @@ export default function Skills() {
             <em>A.A.S. Process Technology</em> <span>•</span> 2016
           </p>
           <div className="skillColumn">
-            Operated the Honeywell Distributed Control System (DCS) to start-up
-            and shut-down San Jacinto Central Glycol Unit.
+            Completed the Associates of Applied Science degree in Process
+            Technology with 20 trained hours operating the Honeywell Distributed
+            Control System (DCS). Start-up and shut-down San Jacinto Central
+            Glycol Unit. Identify and troubleshoot unit field equipment.
+            Illustrated and analyzed piping and instrumentation diagrams.
           </div>
         </div>
       </div>
@@ -85,7 +88,7 @@ export default function Skills() {
             <p>
               HTML5
               <span className="skillIcon">
-                <SiHtml5 className="html"/>
+                <SiHtml5 className="html" />
               </span>
             </p>
           </Row>
@@ -95,7 +98,9 @@ export default function Skills() {
             <p>
               CSS
               <span className="skillIcon">
-                <SiCss3 style={{color:"#264de4", height:"25px", width:"25px"}} />
+                <SiCss3
+                  style={{ color: "#264de4", height: "25px", width: "25px" }}
+                />
               </span>
             </p>
           </Row>
@@ -105,7 +110,7 @@ export default function Skills() {
             <p>
               JavaScript
               <span className="skillIcon">
-                <SiJavascript className="javascript"/>
+                <SiJavascript className="javascript" />
               </span>
             </p>
           </Row>
@@ -115,7 +120,7 @@ export default function Skills() {
             <p>
               jQuery
               <span className="skillIcon">
-                <SiJquery className="jquery"/>
+                <SiJquery className="jquery" />
               </span>
             </p>
           </Row>
@@ -136,7 +141,7 @@ export default function Skills() {
             <p>
               Node.js
               <span className="skillIcon">
-                <DiJavascript1 className="node"/>
+                <DiJavascript1 className="node" />
               </span>
             </p>
           </Row>
@@ -146,7 +151,7 @@ export default function Skills() {
             <p>
               MySQL
               <span className="skillIcon">
-                <GrMysql className="mysql"/>
+                <GrMysql className="mysql" />
               </span>
             </p>
           </Row>
@@ -156,7 +161,7 @@ export default function Skills() {
             <p>
               MongoDB
               <span className="skillIcon">
-                <SiMongodb className="mongo"/>
+                <SiMongodb className="mongo" />
               </span>
             </p>
           </Row>
@@ -167,7 +172,7 @@ export default function Skills() {
             <p>
               P&IDs
               <span className="skillIcon">
-                <GiPipes className="pipes"/>
+                <GiPipes className="pipes" />
               </span>
             </p>
           </Row>
@@ -177,7 +182,7 @@ export default function Skills() {
             <p>
               Lock-out/Tag-out
               <span className="loto">
-                <AiFillTag className="tag"/>
+                <AiFillTag className="tag" />
               </span>
             </p>
           </Row>
@@ -197,7 +202,7 @@ export default function Skills() {
             <p>
               SAP/SAP HANA
               <span className="skillIcon">
-                <BsFillCloudArrowDownFill className="sap"/>
+                <BsFillCloudArrowDownFill className="sap" />
               </span>
             </p>
           </Row>

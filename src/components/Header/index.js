@@ -51,6 +51,12 @@ export default function Header() {
             </Button>
           </Link>
           <br></br>
+          <Link to="about" spy={true} smooth={true} duration={500}>
+            <Button title="About Me" variant="none" className="navBtns">
+              <FaUserAlt id="user" />
+            </Button>
+          </Link>
+          <br></br>
           <Link
             to="projects"
             spy={true}
@@ -72,12 +78,6 @@ export default function Header() {
             <SiMinutemailer id="mail" />
           </Button>
           <Modal open={isOpen} onClose={() => setIsOpen(false)} />
-          <br></br>
-          <Link to="about" spy={true} smooth={true} duration={500}>
-            <Button title="About Me" variant="none" className="navBtns">
-              <FaUserAlt id="user" />
-            </Button>
-          </Link>
           <br></br>
           <Link to="footer" spy={true} smooth={true} duration={500}>
             <Button title="Footer" variant="none" className="navBtns">
