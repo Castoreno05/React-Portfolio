@@ -121,3 +121,14 @@ img {
     border-radius: 15px !important;
   }
 }
+@media screen and (max-width: 415px){
+  .intro p {
+    font-size: 14px;
+  }
+  .navbar {
+    width: 55px !important;
+  }
+  .navBtns {
+    width: 45px !important;
+  }
+}
