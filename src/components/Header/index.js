@@ -92,8 +92,7 @@ export default function Header() {
           <p>
             Dedicated full-stack web developer with professional experience in
             Process Technology. Industrious Operator specialized in managing
-            unit and software processing systems. In search of a challenging position that will enhance my expertise in web development.
-            My skills combined with operational experience are well-suited to solve time-sensitive and complex problems.
+            unit and software processing systems. In search of a challenging position that will enhance my expertise in web development. My technical and mechanical insight in managing unit operations, incorporated with a sentiment to gain further knowledge within web development, provides me with the confidence and excitement of joining an organization.
           </p>
         </div>
       </section>

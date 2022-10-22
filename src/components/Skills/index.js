@@ -11,7 +11,7 @@ import {
   SiMongodb,
 } from "react-icons/si";
 import { DiJavascript1 } from "react-icons/di";
-import { GrMysql, GrCloudSoftware } from "react-icons/gr";
+import { GrMysql } from "react-icons/gr";
 import { GiPipes } from "react-icons/gi";
 import { AiFillTag, AiFillControl } from "react-icons/ai";
 import { BsFillCloudArrowDownFill } from "react-icons/bs";
@@ -27,7 +27,7 @@ export default function Skills() {
             <em>Full-stack web development</em> <span>•</span> 2022
           </p>
           <div className="skillColumn">
-            Produced applications that applied front and back end development
+            Created applications that applied front and back end development
             using a variety of languages, frameworks, servers and databases.
             Collaborated with cohorts to produce high-quality applications using
             HTML, CSS, JavaScript, MySQL, MongoDB, Express.js, React.js,
@@ -70,13 +70,13 @@ export default function Skills() {
           <div className="skillColumn">
             Managed unit operations by utilizing a distributed control system to
             effectively and efficiently transfer finished products into storage
-            tanks, rail cars and bulk trucks. Led safety meetings that addressed
+            tanks, rail cars and bulk trucks. Administered safety meetings that addressed
             abnormal field conditions, production flow and maintenance updates.
             Documented and entered required data for board and field operations.
             Field experience includes: troubleshooting, performing preventative
-            maintenance on unit equipment and combined raw materials with
+            maintenance on unit equipment and combining raw materials with
             additives into finished products using unit systems. Coordinated
-            unit project involving Engineering, Maintenance and Operations to
+            unit project involving Engineering, Maintenance, Instrumentation and Operations to
             supplement a 20% increase in production flow.
           </div>
         </div>

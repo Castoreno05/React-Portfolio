@@ -20,12 +20,13 @@
     top: 18%;
 }
 .aboutDiv {
-    margin: 25px 25px;
+    width: 85%;
+    margin: 0 auto;
     padding: 25px;
     color: #F5F9E9;
 }
 .contactDiv {
-    margin: 25px 25px;
+    margin: 0 auto;
     padding: 25px;
     color: #F5F9E9;
 }

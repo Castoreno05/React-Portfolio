@@ -76,17 +76,11 @@ export default function Projects() {
               increasing the pressure on the player. When the timer runs out the
               game is over and the score that you ended with will display on the
               screen. A "Save initals" and "Input Field" will display. Save your
-              initials to the high score, reset and play again!
+              initials, reset and play again!
             </p>
           </Collapsible>
         </Row>
       </Container>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
       <br></br>
       <br></br>
       <br></br>

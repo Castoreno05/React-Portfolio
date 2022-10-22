@@ -21,7 +21,7 @@ export default function About() {
             shift my career path and pursue web development. Prior to making
             that change, my professional career was in the Oil and Gas indusrty.
             Throughout my experience I was exposed to technology that sparked an interest in web development.
-            I realized the enjoyment in creating applications using methods learned in operations. Moving forward with my new found passion, I aspire to collaberate on a team that sharpens my skills and encourages growth. In my free time
+            I realized the enjoyment in creating applications using methods learned in operations. Moving forward with my new found passion, I aspire to collaborate on a team that sharpens my skills and encourages growth. In my free time
             I enjoy traveling, camping, hiking and staying physically active playing sports.
           </p>
         </div>

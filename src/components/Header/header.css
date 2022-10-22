@@ -1,6 +1,7 @@
 .header {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   height: 100vh;
   background: url(../../Videos/newBG.jpg) no-repeat top center;
   background-size: cover;
@@ -24,13 +25,10 @@ nav .navBtns {
   background-color: #AE8E1C !important;
 }
 .intro {
-  background: rgba(0, 0, 0, 0);
-  display: inline-block;
+  padding: 20px 20px;
   position: relative;
-  top: 10%;
   left: 10%;
   width: 80%;
-  font-weight: 400;
 }
 img {
   margin-right: 25px;
@@ -41,23 +39,17 @@ img {
   font-weight: 400;
   text-align: center;
   font-size: 100px;
-  position: relative;
-  top: 7%;
 }
 .paragraphDiv { 
-  position: relative;
-  top: 2%;
   display: flex;
   width: auto;
   margin: auto;
-  padding: 15px 20px;
 }
 .paragraphDiv p {
   display: flex;
   align-items: center;
 }
 .intro p {
-  padding: 15px;
   line-height: 2;
   text-align: center;
   font-size: 22px;
@@ -86,18 +78,13 @@ img {
 }
 
 .header .socialLinks {
-  position: relative;
-  top: 10%;
+  padding: 20px 20px;
   margin: 0 auto;
 }
 
 .arrowDown {
+  padding: 20px 20px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  top: 18%;
 }
 .arrow {
   color: #F5F9E9;
@@ -105,24 +92,8 @@ img {
   width: 65px;
   padding: 10px 10px;
 }
-@media screen and (min-width: 1300px) {
-  .arrowDown {
-    top: 32%;
-  }
-  .header .socialLinks{
-    top: 25%;
-  }
-  .intro {
-    top: 15%;
-  }
-  .name {
-    bottom: 2%;
-  }
-  .paragraphDiv {
-    top: 15%;
-  }
-}
-@media screen and (max-width: 1150px){
+
+/* @media screen and (max-width: 1150px){
   .intro {
     top: 15%;
   }
@@ -141,19 +112,20 @@ img {
   .paragraphDiv {
     top: 30px;
   }
-}
+} */
 @media screen and (max-width: 865px) {
   .name {
-    font-size: 65px;
+    font-size: 50px;
   }
   .intro p {
+    font-size: 20px;
     line-height: 1.75;
   }
   .arrowDown {
     top: 25%;
   }
 }
-@media screen and (max-width:720px) {
+/* @media screen and (max-width:720px) {
   .name {
     font-size: 50px;
   }
@@ -170,4 +142,4 @@ img {
     font-size: 18px;
   }
   
-}
+} */
