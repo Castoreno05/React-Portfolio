@@ -1,40 +1,40 @@
 .footer {
-    color: #F5F9E9;
-    display: flex;
-    justify-content: center;
-    height: 600px;
-    background-color: #080708;
+  color: #f5f9e9;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  background-color: #080708;
 }
 .reset {
-    color: inherit;
+  color: inherit;
 }
-.footer a:hover{ 
-    color: #AE8E1C !important;
+.footer a:hover {
+  color: #ae8e1c !important;
 }
 .footerContainer {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .ghPages {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 5px 5px;
-    height: 45px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 5px 5px;
+  height: 45px;
 }
 
 .footerNav p {
-    text-transform: uppercase;
-    cursor: pointer;
-    margin: 10px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 10px 10px;
 }
 
 .footerNav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .socialLinks {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
