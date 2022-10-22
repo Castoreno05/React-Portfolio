@@ -26,17 +26,18 @@
 }
 
 #contact {
+  border-radius: 25px;
   background: #f9f9f9;
   padding: 25px;
   position: relative;
   top: 105px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 #contact h3 {
   display: block;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 400;
+  text-transform: uppercase;
   margin-bottom: 10px;
 }
 
@@ -63,7 +64,7 @@ fieldset {
   width: 100%;
   border: 1px solid #ccc;
   background: #fff;
-  margin: 0 0 5px;
+  margin: 10px auto;
   padding: 10px;
 }
 

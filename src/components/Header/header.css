@@ -41,9 +41,10 @@ img {
   font-size: 100px;
 }
 .paragraphDiv { 
-  display: flex;
-  width: auto;
   margin: auto;
+  width: 85%;
+  position: relative;
+  top: 5%;
 }
 .paragraphDiv p {
   display: flex;
@@ -92,28 +93,7 @@ img {
   width: 65px;
   padding: 10px 10px;
 }
-
-/* @media screen and (max-width: 1150px){
-  .intro {
-    top: 15%;
-  }
-  .name {
-    font-size: 75px;
-  }
-  .intro p {
-    font-size: 20px;
-  }
-  .header .socialLinks {
-    top: 20%;
-  }
-  .arrowDown {
-    top: 28%;
-  }
-  .paragraphDiv {
-    top: 30px;
-  }
-} */
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 975px) {
   .name {
     font-size: 50px;
   }
@@ -125,21 +105,19 @@ img {
     top: 25%;
   }
 }
-/* @media screen and (max-width:720px) {
-  .name {
-    font-size: 50px;
+@media screen and (max-width: 600px) {
+  .intro p {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  .navbar {
+    width:65px !important;
+    height: 300px !important;
+    bottom: 30% !important;
+  }
+  .navBtns {
+    width: 50px !important;
+    height: 35px !important;
+    border-radius: 15px !important;
   }
 }
-@media screen and (max-width:592px) {
-  .name {
-    font-size: 35px;
-  }
-  .intro {
-    width: auto;
-    left: 0;
-  }
-  .intro p {
-    font-size: 18px;
-  }
-  
-} */

@@ -47,7 +47,7 @@ export default function Skills() {
         </div>
       </div>
       <div className="work">
-        <h3 className="skillTitle">Work</h3>
+        <h3 className="skillTitle">Experience</h3>
         <div className="work-columns">
           {/* <h2>Eurecat US Inc</h2>
           <p className="info">
