@@ -9,12 +9,14 @@ import {
   SiJquery,
   SiReact,
   SiMongodb,
+  SiHandlebarsdotjs
 } from "react-icons/si";
 import { DiJavascript1 } from "react-icons/di";
 import { GrMysql } from "react-icons/gr";
 import { GiPipes } from "react-icons/gi";
-import { AiFillTag, AiFillControl } from "react-icons/ai";
+import { AiFillTag, AiFillControl, AiFillDatabase } from "react-icons/ai";
 import { BsFillCloudArrowDownFill } from "react-icons/bs";
+import { FaBootstrap } from "react-icons/fa";
 
 export default function Skills() {
   return (
@@ -126,6 +128,16 @@ export default function Skills() {
             </p>
           </Row>
           <span>Intermediate</span>
+          <br></br>
+          <Row>
+            <p>
+              SQL
+              <span className="skillIcon">
+                <AiFillDatabase className="sql" />
+              </span>
+            </p>
+          </Row>
+          <span>Experienced</span>
         </Container>
         <Container className="groupContainer">
           <Row>
@@ -163,6 +175,16 @@ export default function Skills() {
               MongoDB
               <span className="skillIcon">
                 <SiMongodb className="mongo" />
+              </span>
+            </p>
+          </Row>
+          <span>Intermediate</span>
+          <br></br>
+          <Row>
+            <p>
+              Handlebars
+              <span className="skillIcon">
+                <SiHandlebarsdotjs className="handlebars" />
               </span>
             </p>
           </Row>
@@ -208,6 +230,16 @@ export default function Skills() {
             </p>
           </Row>
           <span>Intermediate</span>
+          <br></br>
+          <Row>
+            <p>
+              Bootstrap
+              <span className="skillIcon">
+                <FaBootstrap className="bootstrap" />
+              </span>
+            </p>
+          </Row>
+          <span>Experienced</span>
         </Container>
       </div>
     </div>

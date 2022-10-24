@@ -95,6 +95,11 @@
   height: 25px;
   width: 25px;
 }
+.sql {
+  color: #808080;
+  height: 25px;
+  width: 25px;
+}
 .react {
   height: 25px;
   width: 25px;
@@ -118,6 +123,11 @@
   height: 25px;
   width: 25px;
 }
+.handlebars {
+  color: #6f4e37;
+  height: 25px;
+  width: 25px;
+}
 .pipes {
   color: #707070;
   height: 25px;
@@ -135,6 +145,11 @@
 }
 .sap {
   color: #008ad7;
+  height: 25px;
+  width: 25px;
+}
+.bootstrap {
+  color: #6f42c1;
   height: 25px;
   width: 25px;
 }
