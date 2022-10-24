@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.37b4a53d.css",
-    "main.js": "/React-Portfolio/static/js/main.a1901ff9.js",
+    "main.css": "/React-Portfolio/static/css/main.32fba83c.css",
+    "main.js": "/React-Portfolio/static/js/main.3d142cbc.js",
     "static/media/readmeGenerator.gif": "/React-Portfolio/static/media/readmeGenerator.dbe6bd878a9a9ca71811.gif",
     "static/media/WeatherGif.gif": "/React-Portfolio/static/media/WeatherGif.5b3db64e4ecd167375c9.gif",
     "static/media/bootcampBlog.gif": "/React-Portfolio/static/media/bootcampBlog.a64a7ec9079986985d86.gif",
@@ -9,11 +9,11 @@
     "static/media/codeQuiz.gif": "/React-Portfolio/static/media/codeQuiz.05fafedff1a8a54cd32b.gif",
     "static/media/newBG.jpg": "/React-Portfolio/static/media/newBG.044a5fdaec1a1ff1b261.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.37b4a53d.css.map": "/React-Portfolio/static/css/main.37b4a53d.css.map",
-    "main.a1901ff9.js.map": "/React-Portfolio/static/js/main.a1901ff9.js.map"
+    "main.32fba83c.css.map": "/React-Portfolio/static/css/main.32fba83c.css.map",
+    "main.3d142cbc.js.map": "/React-Portfolio/static/js/main.3d142cbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.37b4a53d.css",
-    "static/js/main.a1901ff9.js"
+    "static/css/main.32fba83c.css",
+    "static/js/main.3d142cbc.js"
   ]
 }
