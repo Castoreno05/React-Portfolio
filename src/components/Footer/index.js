@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 export default function Footer() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="footer" id="foot">
+    <div className="footer" id="redirect">
       <div className="footerContainer">
         <h1 className="ghPages">Github Pages</h1>
         <Navbar variant="none" style={{ justifyContent: "center" }}>

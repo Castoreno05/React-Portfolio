@@ -9,7 +9,7 @@ import {
   SiJquery,
   SiReact,
   SiMongodb,
-  SiHandlebarsdotjs
+  SiHandlebarsdotjs,
 } from "react-icons/si";
 import { DiJavascript1 } from "react-icons/di";
 import { GrMysql } from "react-icons/gr";
@@ -22,7 +22,7 @@ export default function Skills() {
   return (
     <div className="skills">
       <div className="education">
-        <h3 className="skillTitle">Education</h3>
+        <h2 className="skillTitle">Education</h2>
         <div className="education-columns">
           <h2>University of Texas - Austin, Texas</h2>
           <p className="info">
@@ -49,20 +49,14 @@ export default function Skills() {
         </div>
       </div>
       <div className="work">
-        <h3 className="skillTitle">Experience</h3>
+        <h2 className="skillTitle">Experience</h2>
         <div className="work-columns">
           {/* <h2>Eurecat US Inc</h2>
           <p className="info">
             <em>Process Operator</em> <span>•</span> 2022
           </p>
           <div className="skillColumn">
-            Facillitated unit safety walk-throughs to inspect unit equipment and
-            verified that it complies with operation standards. Recorded and
-            accounted for data relating to production recipe. Met deadlines to
-            produce quality finished batches, while following safety practices
-            and procedures. Off-loaded acid bulk trucks into storgage vessel's.
-            Assigned project manager to implement new feed line into blender
-            tank to increase the rate of flow.
+            Facilitated unit safety walk-throughs to inspect and verify unit equipment complies with operational standards. Recorded and accounted for data relating to production recipe. Met deadlines to produce quality finished batches, while following safety practices and procedures. Off-loaded acid bulk trucks into storage vessel's. Assigned project manager to implement new feed line into blender tank to increase the rate of flow.
           </div> */}
           <h2>The Lubrizol Corporation</h2>
           <p className="info">

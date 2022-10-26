@@ -3,12 +3,7 @@ import Modal from "../Modal";
 import "./header.css";
 import { Nav, Navbar, Button } from "react-bootstrap";
 import { Link } from "react-scroll";
-import {
-  FaHome,
-  FaUserAlt,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaHome, FaUserAlt, FaGithub, FaLinkedin } from "react-icons/fa";
 import { GiFootprint } from "react-icons/gi";
 import { BsArrowDownCircleFill } from "react-icons/bs";
 import { SiMinutemailer } from "react-icons/si";
@@ -81,7 +76,7 @@ export default function Header() {
           <br></br>
           <Link to="footer" spy={true} smooth={true} duration={500}>
             <Button title="Footer" variant="none" className="navBtns">
-              <GiFootprint id="foot" />
+              <GiFootprint id="redirect" />
             </Button>
           </Link>
         </Nav>
@@ -92,7 +87,12 @@ export default function Header() {
           <p>
             Dedicated full-stack web developer with professional experience in
             Process Technology. Industrious Operator specialized in managing
-            unit and software processing systems. In search of a challenging position that will enhance my expertise in web development. My technical and mechanical insight in managing unit operations, incorporated with a sentiment to gain further knowledge within web development, provides me with the confidence and excitement of joining an organization.
+            unit and software processing systems. In search of a challenging
+            position that will enhance my expertise in web development. My
+            technical and mechanical insight in managing unit operations,
+            incorporated with a sentiment to gain further knowledge within web
+            development, provides me with the confidence and excitement of
+            joining an organization.
           </p>
         </div>
       </section>
