@@ -55,7 +55,7 @@ export default function Header() {
           <Link
             to="projects"
             spy={true}
-            offset={5}
+            offset={-25}
             smooth={true}
             duration={500}
           >
