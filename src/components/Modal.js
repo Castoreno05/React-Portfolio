@@ -3,7 +3,6 @@ import { Button } from "react-bootstrap";
 import ReactDom from "react-dom";
 import emailjs from "@emailjs/browser";
 import { ImCross } from "react-icons/im";
-import "./ContactForm/contact.css";
 
 const MODAL_STYLES = {
   position: "fixed",

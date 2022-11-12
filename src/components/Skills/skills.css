@@ -26,8 +26,8 @@
   padding: 15px;
 }
 .education-columns {
-  width: 75%;
-  margin: auto;
+  width: 45vw;
+  margin: 0 40px;
   display: flex;
   flex-direction: column;
 }
@@ -41,8 +41,8 @@
   padding: 2em;
 }
 .work-columns {
-  width: 76%;
-  margin: auto;
+  width: 45vw;
+  margin: 0 35px;
   display: flex;
   flex-direction: column;
 }
