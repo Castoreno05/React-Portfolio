@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import ReactDom from "react-dom";
 import emailjs from "@emailjs/browser";
+import "./Form/contact.css";
 import { ImCross } from "react-icons/im";
 
 const MODAL_STYLES = {
