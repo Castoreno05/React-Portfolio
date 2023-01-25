@@ -3,14 +3,12 @@
   flex-direction: column;
   justify-content: space-evenly;
   height: 100vh;
-  background: url(../../Videos/newBG.jpg) no-repeat top center;
-  background-size: cover;
 }
 .header a {
   cursor: pointer;
 }
 
-nav .navBtns {
+/* nav .navBtns {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +18,7 @@ nav .navBtns {
   background-color: #bcb8b1;
   width: 60px;
   height: 50px;
-}
+} */
 .navBtns:hover {
   background-color: #AE8E1C !important;
 }
