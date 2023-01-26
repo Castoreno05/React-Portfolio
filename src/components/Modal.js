@@ -107,7 +107,6 @@ export default function Modal({ open, children, onClose }) {
                 Github Username{" "}
                 <a
                   href="https://github.com/Castoreno05"
-                  target="_blank"
                   title="Github"
                 >
                   Castoreno05

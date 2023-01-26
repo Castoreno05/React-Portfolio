@@ -4,16 +4,20 @@ import { GrMenu } from "react-icons/gr";
 import { AiOutlineClose } from "react-icons/ai";
 
 export default function Header() {
-  const [close, setClose] = useState("navButtons");
-  const [menuBar, setMenuBar] = useState(false);
+  const [open, setOpen] = useState("navButtons");
+  const [close, setClose] = useState(false);
+  const [svg, setSvg] = useState(false);
 
   const changeClass = () => {
-    setMenuBar(!menuBar);
-    if (close === "navButtons") {
-      setClose("navButtons active");
+    setClose(!close);
+    if (open === "navButtons") {
+      setOpen("navButtons active");
     } else {
-      setClose("navButtons");
+      setOpen("navButtons");
     }
+    setTimeout(() => {
+      setSvg(!svg);
+    }, 500);
   };
 
   return (
@@ -22,18 +26,19 @@ export default function Header() {
         <h1>M.C.C.</h1>
       </div>
       <div className="navBar">
-        {menuBar ? (
+        {svg ? (
           <AiOutlineClose onClick={changeClass} />
         ) : (
           <GrMenu onClick={changeClass} />
         )}
       </div>
-      <div className={close}>
+      <div className={open}>
         <ul>
           <li>About</li>
           <li>Projects</li>
           <li>Skills</li>
         </ul>
+        <AiOutlineClose onClick={changeClass} />
       </div>
     </Container>
   );
@@ -65,10 +70,11 @@ const Container = styled.div`
   }
   .navButtons {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
     position: fixed;
     top: -30%;
-    right: 10%;
+    right: 1%;
     width: 300px;
     height: 25vh;
     background-color: white;
@@ -80,6 +86,7 @@ const Container = styled.div`
     ul {
       display: flex;
       flex-direction: column;
+      gap: 2rem;
       align-items: center;
       justify-content: space-between;
       padding: 0;
@@ -90,12 +97,23 @@ const Container = styled.div`
         font-size: 20px;
       }
     }
+    svg {
+      cursor: pointer;
+      position: relative;
+      left: 92%;
+      top: -5%;
+    }
   }
   .navButtons.active {
     transition: 500ms ease-in-out;
     top: 0;
   }
-  @media screen and (max-width: 650px) {
+  // @media screen and (max-width: 930px) {
+  //   .navButtons {
+  //     right: 31%;
+  //   }
+  // }
+  @media screen and (max-width: 600px) {
     .navButtons {
       background-color: transparent;
       width: 100%;
@@ -110,6 +128,9 @@ const Container = styled.div`
         li {
           font-weight: bold;
         }
+      }
+      svg {
+        display: none;
       }
     }
     .navButtons.active {
