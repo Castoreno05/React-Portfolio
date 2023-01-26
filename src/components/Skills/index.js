@@ -1,7 +1,5 @@
 import React from "react";
 import "./skills.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import {
   SiHtml5,
   SiCss3,
@@ -80,18 +78,18 @@ export default function Skills() {
       </div>
       <div className="strengths">
         <h3 className="skillTitle">Skills</h3>
-        <Container className="groupContainer">
-          <Row>
+        <section className="groupContainer">
+          <div>
             <p>
               HTML5
               <span className="skillIcon">
                 <SiHtml5 className="html" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Experienced</span>
           <br></br>
-          <Row>
+          <div>
             <p>
               CSS
               <span className="skillIcon">
@@ -100,141 +98,141 @@ export default function Skills() {
                 />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Experienced</span>
           <br></br>
-          <Row>
+          <div>
             <p>
               JavaScript
               <span className="skillIcon">
                 <SiJavascript className="javascript" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Intermediate</span>
           <br></br>
-          <Row>
+          <div>
             <p>
               jQuery
               <span className="skillIcon">
                 <SiJquery className="jquery" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Intermediate</span>
           <br></br>
-          <Row>
+          <div>
             <p>
               SQL
               <span className="skillIcon">
                 <AiFillDatabase className="sql" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Experienced</span>
-        </Container>
-        <Container className="groupContainer">
-          <Row>
+        </section>
+        <section className="groupContainer">
+          <div>
             <p>
               React
               <span className="skillIcon">
                 <SiReact className="react" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Intermediate</span>
           <br></br>
-          <Row>
+          <div>
             <p>
               Node.js
               <span className="skillIcon">
                 <DiJavascript1 className="node" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Experienced</span>
           <br></br>
-          <Row>
+          <div>
             <p>
               MySQL
               <span className="skillIcon">
                 <GrMysql className="mysql" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Experienced</span>
           <br></br>
-          <Row>
+          <div>
             <p>
               MongoDB
               <span className="skillIcon">
                 <SiMongodb className="mongo" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Intermediate</span>
           <br></br>
-          <Row>
+          <div>
             <p>
               Handlebars
               <span className="skillIcon">
                 <SiHandlebarsdotjs className="handlebars" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Intermediate</span>
-        </Container>
-        <Container className="groupContainer">
-          <Row>
+        </section>
+        <section className="groupContainer">
+          <div>
             <p>
               P&IDs
               <span className="skillIcon">
                 <GiPipes className="pipes" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Experienced</span>
           <br></br>
-          <Row>
+          <div>
             <p>
               Lock-out/Tag-out
               <span className="loto">
                 <AiFillTag className="tag" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Experienced</span>
           <br></br>
-          <Row>
+          <div>
             <p>
               Honeywell DCS
               <span className="skillIcon">
                 <AiFillControl id="rogue" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Experienced</span>
           <br></br>
-          <Row>
+          <div>
             <p>
               SAP/SAP HANA
               <span className="skillIcon">
                 <BsFillCloudArrowDownFill className="sap" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Intermediate</span>
           <br></br>
-          <Row>
+          <div>
             <p>
               Bootstrap
               <span className="skillIcon">
                 <FaBootstrap className="bootstrap" />
               </span>
             </p>
-          </Row>
+          </div>
           <span>Experienced</span>
-        </Container>
+        </section>
       </div>
     </div>
   );

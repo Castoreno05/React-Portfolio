@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Button } from "react-bootstrap";
 import ReactDom from "react-dom";
 import emailjs from "@emailjs/browser";
 import "./Form/contact.css";
@@ -72,7 +71,7 @@ export default function Modal({ open, children, onClose }) {
             <div id="contact" action="" method="post">
               <div className="contactHeader">
                 <h3>Contact Me</h3>
-                <Button variant="dark" onClick={onClose}><ImCross/></Button>
+                <button variant="dark" onClick={onClose}><ImCross/></button>
               </div>
               <br></br>
               <input

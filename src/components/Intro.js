@@ -1,86 +1,17 @@
-import React, { useState } from "react";
-import { Link } from "react-scroll";
-import { FaHome, FaUserAlt, FaGithub, FaLinkedin } from "react-icons/fa";
-import { GiFootprint } from "react-icons/gi";
-import { BsArrowDownCircleFill } from "react-icons/bs";
-import { SiMinutemailer } from "react-icons/si";
-import { FaLaptopCode } from "react-icons/fa";
-import { ImFilePdf } from "react-icons/im";
-import "./header.css";
+import React from "react";
+// import { Link } from "react-scroll";
+// import { FaHome, FaUserAlt, FaGithub, FaLinkedin } from "react-icons/fa";
+// import { GiFootprint } from "react-icons/gi";
+// import { BsArrowDownCircleFill } from "react-icons/bs";
+// import { SiMinutemailer } from "react-icons/si";
+// import { FaLaptopCode } from "react-icons/fa";
+// import { ImFilePdf } from "react-icons/im";
 import styled from "styled-components";
 
 export default function Intro() {
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <Container className="header">
       <div className="introContainer">
-        {/* <Navbar
-        variant="dark"
-        style={{
-          position: "fixed",
-          bottom: "25%",
-          right: "3%",
-          background: "gray",
-          borderRadius: "30px",
-          height: "375px",
-          width: "80px",
-          opacity: ".8",
-        }}
-      >
-        <Nav
-          style={{
-            margin: "auto",
-            flexDirection: "column",
-            width: "auto",
-          }}
-        >
-          <Link
-            to="header"
-            spy={true}
-            smooth={true}
-            duration={500}
-            style={{ width: "auto" }}
-          >
-            <Button title="Home" variant="none" className="navBtns">
-              <FaHome id="home" />
-            </Button>
-          </Link>
-          <br></br>
-          <Link to="about" spy={true} smooth={true} duration={500}>
-            <Button title="About Me" variant="none" className="navBtns">
-              <FaUserAlt id="user" />
-            </Button>
-          </Link>
-          <br></br>
-          <Link
-            to="projects"
-            spy={true}
-            offset={-25}
-            smooth={true}
-            duration={500}
-          >
-            <Button title="Projects" variant="none" className="navBtns">
-              <FaLaptopCode id="code" />
-            </Button>
-          </Link>
-          <br></br>
-          <Button
-            title="Message Me"
-            variant="none"
-            className="navBtns"
-            onClick={() => setIsOpen(true)}
-          >
-            <SiMinutemailer id="mail" />
-          </Button>
-          <Modal open={isOpen} onClose={() => setIsOpen(false)} />
-          <br></br>
-          <Link to="footer" spy={true} smooth={true} duration={500}>
-            <Button title="Footer" variant="none" className="navBtns">
-              <GiFootprint id="redirect" />
-            </Button>
-          </Link>
-        </Nav>
-      </Navbar> */}
         <section>
           <h1>Matthew Castoreno</h1>
           <div className="paraDiv">
@@ -127,7 +58,9 @@ export default function Intro() {
 }
 
 const Container = styled.div`
+  background-color: white;
   padding: 2rem;
+  padding-top: 0;
   .introContainer {
     display: flex;
     justify-content: center;
@@ -135,6 +68,7 @@ const Container = styled.div`
     height: 100vh;
     section {
       h1 {
+        margin: 0;
         color: black;
         text-align: center;
         font-size: 85px;
@@ -146,7 +80,7 @@ const Container = styled.div`
           font-size: 28px;
           text-align: center;
           color: black;
-          margin-bottom: 0rem;
+          margin: 0rem;
         }
       }
     }

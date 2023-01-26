@@ -1,5 +1,4 @@
 import React from "react";
-// import Louvre from "../../Images/Louvre.jpg";
 import "./about.css";
 
 export default function About() {

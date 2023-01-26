@@ -1,23 +1,40 @@
-import React from "react";
+import React, { lazy } from "react";
 import { Routes, Route } from "react-router-dom";
-import Header from "./components/Header/Header";
-import Intro from "./components/Intro";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+const Intro = lazy(() => import("./components/Intro"));
+const About = lazy(() => import("./components/About/index"));
+const Skills = lazy(() => import("./components/Skills"));
+const Projects = lazy(() => import("./components/Projects"));
 
 function App() {
   return (
     <>
-      <Header />
       <Routes>
         <Route path="/" element={<Intro />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/skills" element={<Skills />} />
+        <Route
+          path="/about"
+          element={
+            <React.Suspense fallback={<div>Loading...</div>}>
+              <About />
+            </React.Suspense>
+          }
+        />
+        <Route
+          path="/projects"
+          element={
+            <React.Suspense fallback={<div>Loading...</div>}>
+              <Projects />
+            </React.Suspense>
+          }
+        />
+        <Route
+          path="/skills"
+          element={
+            <React.Suspense fallback={<div>Loading...</div>}>
+              <Skills />
+            </React.Suspense>
+          }
+        />
       </Routes>
-      <Footer />
     </>
   );
 }
