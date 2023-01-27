@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import { GrMenu } from "react-icons/gr";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -23,7 +24,9 @@ export default function Header() {
   return (
     <Container>
       <div className="logo">
-        <h1>M.C.C.</h1>
+        <Link to="/">
+          <h1>M.C.C.</h1>
+        </Link>
       </div>
       <div className="navBar">
         {svg ? (
@@ -34,9 +37,18 @@ export default function Header() {
       </div>
       <div className={open}>
         <ul>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Skills</li>
+          <li>
+            <Link onClick={changeClass} to="/about">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/projects" onClick={changeClass}>Projects</Link>
+          </li>
+          <li>
+            <Link to="/skills" onClick={changeClass}>Skills</Link>
+          </li>
+          <li>Contact Me</li>
         </ul>
         <AiOutlineClose onClick={changeClass} />
       </div>
@@ -52,13 +64,17 @@ const Container = styled.div`
   width: 100%;
   border-bottom: solid black 0.025rem;
   padding: 1rem;
-  height: 40px;
+  height: 30px;
   background-color: white;
   .logo {
     cursor: pointer;
-    h1 {
-      font-size: 32px;
-      font-family: "Pacifico", cursive;
+    a {
+      text-decoration: none;
+      color: inherit;
+      h1 {
+        font-size: 28px;
+        font-family: "Pacifico", cursive;
+      }
     }
   }
   .navBar {
@@ -86,7 +102,7 @@ const Container = styled.div`
     ul {
       display: flex;
       flex-direction: column;
-      gap: 2rem;
+      gap: 1rem;
       align-items: center;
       justify-content: space-between;
       padding: 0;
@@ -95,6 +111,10 @@ const Container = styled.div`
       padding: 1rem;
       li {
         font-size: 20px;
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
       }
     }
     svg {
@@ -108,11 +128,6 @@ const Container = styled.div`
     transition: 500ms ease-in-out;
     top: 0;
   }
-  // @media screen and (max-width: 930px) {
-  //   .navButtons {
-  //     right: 31%;
-  //   }
-  // }
   @media screen and (max-width: 600px) {
     .navButtons {
       background-color: transparent;
@@ -137,6 +152,16 @@ const Container = styled.div`
       transition: 850ms;
       top: 10%;
       right: 0;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .navButtons {
+      ul {
+        gap: 0rem;
+        li {
+          font-size: 14px;
+        }
+      }
     }
   }
 `;
