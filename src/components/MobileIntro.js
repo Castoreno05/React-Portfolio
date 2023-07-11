@@ -73,21 +73,6 @@ function MobileIntro() {
         </div>
         <MobileContactMe />
       </div>
-      {/* <div className="serviceContainer">
-        <div className="serviceTitle">
-          <h2>Services</h2>
-        </div>
-        <div className="services">
-          <div className="service">
-            <h3>Front-End Development</h3>
-          </div>
-          <div className="service">
-            <h3>Back-End Development</h3>
-          </div>
-          <div className="service"></div>
-          <div className="service"></div>
-        </div>
-      </div> */}
     </Container>
   );
 }
