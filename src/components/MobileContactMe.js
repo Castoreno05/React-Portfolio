@@ -9,7 +9,6 @@ export const MobileContactMe = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     const emailPayload = {
       to_name: name,
       from_email: email,
